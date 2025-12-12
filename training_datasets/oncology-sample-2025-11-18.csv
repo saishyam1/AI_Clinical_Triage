@@ -1,0 +1,501 @@
+patient_id,age,gender,cancer_type,stage,biomarkers,performance_status,prior_treatments,treatment_protocol,treatment_cost,expected_efficacy,toxicity_profile,quality_of_life_score,survival_months
+ONC-00001,42,M,Colorectal Cancer,Stage IV,ER+/PR+,2,None,Clinical trial enrollment,123668,49.4,"diarrhea, rash",78,15
+ONC-00002,60,F,Pancreatic Cancer,Stage III,"ALK positive, ER+/PR+, BRAF V600E",3,Targeted therapy,CAR-T cell therapy,109081,77.1,"diarrhea, diarrhea, rash, neuropathy",43,19
+ONC-00003,75,M,Lung Cancer,Stage I,"MSI-high, BRAF V600E, EGFR mutation",2,Radiation therapy,Targeted therapy with trastuzumab,108557,10.1,"neutropenia, neuropathy, nausea, neutropenia, fatigue",41,11
+ONC-00004,62,F,Leukemia,Stage I,"ER+/PR+, EGFR mutation, Triple Negative",0,Immunotherapy,Immunotherapy with pembrolizumab,92286,70.2,"diarrhea, fatigue, fatigue, fatigue, fatigue",59,18
+ONC-00005,63,F,Leukemia,Stage II,"ALK positive, ALK positive",3,Immunotherapy,Surgical resection with adjuvant therapy,52017,91.8,"nausea, rash, neutropenia",49,20
+ONC-00006,54,F,Lymphoma,Stage IV,"EGFR mutation, Triple Negative",3,Hormone therapy,Hormone therapy with tamoxifen,122941,28.6,"fatigue, neuropathy, rash",91,13
+ONC-00007,36,F,Prostate Cancer,Stage II,"ER+/PR+, ALK positive",2,None,Surgical resection with adjuvant therapy,111650,58,"diarrhea, neutropenia, fatigue, rash",79,16
+ONC-00008,58,F,Melanoma,Stage III,"ER+/PR+, MSI-high, ER+/PR+",0,None,Surgical resection with adjuvant therapy,99297,90.7,"diarrhea, rash, neutropenia, fatigue",71,15
+ONC-00009,36,M,Prostate Cancer,Stage II,"PD-L1 positive, ALK positive",1,Surgery only,CAR-T cell therapy,107949,19.2,"nausea, neutropenia",58,21
+ONC-00010,54,M,Pancreatic Cancer,Stage III,"ER+/PR+, HER2+",1,Radiation therapy,Surgical resection with adjuvant therapy,169010,22.7,"neuropathy, neutropenia, neuropathy, nausea",79,13
+ONC-00011,39,F,Breast Cancer,Stage I,HER2+,2,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,159789,72.2,"diarrhea, diarrhea",94,22
+ONC-00012,47,F,Lung Cancer,Stage I,"ALK positive, HER2+, HER2+",2,Hormone therapy,Clinical trial enrollment,128850,37,"nausea, nausea, neutropenia, diarrhea, fatigue",53,11
+ONC-00013,48,F,Breast Cancer,Stage III,"HER2+, MSI-high, EGFR mutation",1,None,CAR-T cell therapy,134024,83.1,"nausea, rash",68,16
+ONC-00014,83,M,Melanoma,Stage II,"ALK positive, PD-L1 positive",2,Surgery only,Radiation therapy (60 Gy),143939,85,"nausea, neutropenia, fatigue, neutropenia, neutropenia",79,10
+ONC-00015,61,M,Prostate Cancer,Stage III,"HER2+, MSI-high",1,Surgery only,Surgical resection with adjuvant therapy,177455,60.4,"neutropenia, diarrhea, nausea, neutropenia",49,10
+ONC-00016,50,F,Leukemia,Stage I,"EGFR mutation, HER2+, HER2+",0,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,179565,29,"nausea, rash, diarrhea, fatigue, nausea",92,23
+ONC-00017,69,M,Lung Cancer,Stage IV,BRAF V600E,3,Targeted therapy,Surgical resection with adjuvant therapy,72293,64.5,"neutropenia, rash",57,17
+ONC-00018,74,M,Melanoma,Stage III,"HER2+, PD-L1 positive",0,Targeted therapy,Clinical trial enrollment,81904,15.5,"diarrhea, fatigue, neutropenia",82,15
+ONC-00019,35,M,Lymphoma,Stage IV,"HER2+, MSI-high, MSI-high",2,None,Chemotherapy with carboplatin/paclitaxel,192860,58,"neutropenia, diarrhea, neuropathy",81,23
+ONC-00020,66,F,Prostate Cancer,Stage I,"ALK positive, PD-L1 positive",3,Immunotherapy,Clinical trial enrollment,82907,62.2,"nausea, fatigue, rash, neuropathy",43,22
+ONC-00021,55,F,Leukemia,Stage I,"EGFR mutation, BRAF V600E, ALK positive",1,Radiation therapy,Clinical trial enrollment,63301,24.7,"diarrhea, rash",49,12
+ONC-00022,82,M,Pancreatic Cancer,Stage IV,"HER2+, Triple Negative",2,Chemotherapy,Surgical resection with adjuvant therapy,135648,90.4,"nausea, neutropenia, neuropathy, rash, neutropenia",73,15
+ONC-00023,49,M,Pancreatic Cancer,Stage I,"HER2+, PD-L1 positive, PD-L1 positive",0,Immunotherapy,Targeted therapy with trastuzumab,142520,19.1,"neuropathy, nausea, nausea, neutropenia",51,13
+ONC-00024,43,M,Leukemia,Stage II,"ER+/PR+, BRAF V600E",2,Surgery only,Chemotherapy with carboplatin/paclitaxel,75116,77.6,"nausea, diarrhea, rash",66,13
+ONC-00025,65,F,Breast Cancer,Stage I,MSI-high,1,Hormone therapy,Surgical resection with adjuvant therapy,125625,21.8,"diarrhea, rash, neuropathy",51,15
+ONC-00026,72,F,Breast Cancer,Stage IV,"PD-L1 positive, MSI-high, EGFR mutation",0,Targeted therapy,Surgical resection with adjuvant therapy,175342,77,"neuropathy, diarrhea",65,11
+ONC-00027,52,M,Melanoma,Stage III,"HER2+, PD-L1 positive, BRAF V600E",2,Hormone therapy,Surgical resection with adjuvant therapy,115872,12,"diarrhea, neutropenia, fatigue",93,9
+ONC-00028,50,F,Melanoma,Stage I,PD-L1 positive,0,Immunotherapy,Radiation therapy (60 Gy),131939,40.6,"neutropenia, fatigue, diarrhea, diarrhea, rash",66,9
+ONC-00029,65,F,Colorectal Cancer,Stage I,"PD-L1 positive, ER+/PR+, Triple Negative",3,None,CAR-T cell therapy,173398,63.1,"neuropathy, neuropathy, fatigue",50,16
+ONC-00030,84,M,Melanoma,Stage II,"ER+/PR+, MSI-high, PD-L1 positive",1,Hormone therapy,Hormone therapy with tamoxifen,183966,40.4,"diarrhea, neuropathy, nausea, diarrhea",52,18
+ONC-00031,44,F,Colorectal Cancer,Stage IV,"HER2+, BRAF V600E",3,Chemotherapy,Hormone therapy with tamoxifen,67302,44.3,"neutropenia, diarrhea, fatigue",64,9
+ONC-00032,54,M,Colorectal Cancer,Stage I,HER2+,0,Targeted therapy,Radiation therapy (60 Gy),54522,24,"diarrhea, fatigue, neutropenia, neutropenia, nausea",78,24
+ONC-00033,67,M,Pancreatic Cancer,Stage III,"BRAF V600E, EGFR mutation",3,Immunotherapy,CAR-T cell therapy,108307,10.9,"neuropathy, neuropathy",72,24
+ONC-00034,57,F,Pancreatic Cancer,Stage IV,"MSI-high, ER+/PR+, EGFR mutation",1,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,149092,66.4,"nausea, diarrhea, neuropathy, neutropenia, nausea",94,16
+ONC-00035,52,M,Melanoma,Stage I,"PD-L1 positive, Triple Negative",3,Hormone therapy,Hormone therapy with tamoxifen,71302,57.5,"neuropathy, fatigue",89,13
+ONC-00036,48,F,Leukemia,Stage II,"Triple Negative, HER2+, HER2+",0,Chemotherapy,Clinical trial enrollment,66820,79.2,"rash, rash, nausea",94,14
+ONC-00037,77,F,Leukemia,Stage IV,"ER+/PR+, EGFR mutation",2,Targeted therapy,Hormone therapy with tamoxifen,85915,12.7,"fatigue, neuropathy",62,9
+ONC-00038,67,M,Prostate Cancer,Stage I,"Triple Negative, HER2+, EGFR mutation",1,Surgery only,Clinical trial enrollment,67474,73.1,"rash, neuropathy, neutropenia, diarrhea",52,14
+ONC-00039,76,F,Melanoma,Stage I,BRAF V600E,2,Radiation therapy,Radiation therapy (60 Gy),157178,35.8,"fatigue, rash, neuropathy, diarrhea",64,22
+ONC-00040,59,F,Colorectal Cancer,Stage III,EGFR mutation,2,None,Targeted therapy with trastuzumab,84332,85.7,"nausea, neutropenia, nausea",55,8
+ONC-00041,35,F,Prostate Cancer,Stage III,MSI-high,2,Surgery only,CAR-T cell therapy,101938,20,"rash, neutropenia, nausea, fatigue",87,9
+ONC-00042,55,F,Pancreatic Cancer,Stage III,"ALK positive, PD-L1 positive, EGFR mutation",3,Hormone therapy,Hormone therapy with tamoxifen,131878,88.8,"fatigue, nausea, diarrhea",84,10
+ONC-00043,56,F,Breast Cancer,Stage IV,"HER2+, Triple Negative",0,Surgery only,Radiation therapy (60 Gy),143390,83.7,"neutropenia, diarrhea, diarrhea, diarrhea",49,21
+ONC-00044,70,M,Pancreatic Cancer,Stage IV,ALK positive,1,Radiation therapy,Hormone therapy with tamoxifen,144563,50.6,"neuropathy, neuropathy, nausea",49,24
+ONC-00045,62,F,Breast Cancer,Stage III,"ALK positive, BRAF V600E",1,Chemotherapy,CAR-T cell therapy,181874,75.1,"diarrhea, diarrhea, fatigue, rash",71,13
+ONC-00046,57,F,Prostate Cancer,Stage II,"Triple Negative, MSI-high",2,Radiation therapy,Radiation therapy (60 Gy),140072,37.4,"fatigue, neuropathy, diarrhea",46,12
+ONC-00047,55,M,Colorectal Cancer,Stage II,"Triple Negative, Triple Negative",3,Hormone therapy,CAR-T cell therapy,56100,93,"fatigue, nausea, nausea, neuropathy, diarrhea",75,11
+ONC-00048,44,M,Pancreatic Cancer,Stage I,"ER+/PR+, Triple Negative, PD-L1 positive",2,Chemotherapy,Clinical trial enrollment,132675,29.1,"nausea, fatigue",57,20
+ONC-00049,68,M,Colorectal Cancer,Stage I,"ER+/PR+, ER+/PR+, HER2+",2,Hormone therapy,Surgical resection with adjuvant therapy,168475,33.1,"neutropenia, diarrhea, rash, nausea, nausea",40,18
+ONC-00050,42,M,Melanoma,Stage I,"HER2+, Triple Negative, EGFR mutation",1,Hormone therapy,Hormone therapy with tamoxifen,91693,85.4,"nausea, neuropathy, diarrhea",75,14
+ONC-00051,51,F,Lymphoma,Stage II,ALK positive,2,Radiation therapy,Surgical resection with adjuvant therapy,197727,82.2,"rash, neutropenia, neutropenia, neuropathy",66,23
+ONC-00052,67,M,Melanoma,Stage II,"HER2+, Triple Negative",2,Chemotherapy,Radiation therapy (60 Gy),155106,12.3,"neuropathy, nausea, fatigue, rash, neutropenia",79,8
+ONC-00053,33,M,Lymphoma,Stage III,"HER2+, EGFR mutation",2,Radiation therapy,Hormone therapy with tamoxifen,125929,80.2,"nausea, neuropathy",60,15
+ONC-00054,46,M,Lymphoma,Stage IV,"ER+/PR+, ER+/PR+",0,Radiation therapy,Radiation therapy (60 Gy),68013,82.3,"neutropenia, fatigue, rash, rash, nausea",42,20
+ONC-00055,79,M,Leukemia,Stage III,Triple Negative,3,None,Immunotherapy with pembrolizumab,90025,13.1,"diarrhea, neutropenia",90,8
+ONC-00056,71,M,Lung Cancer,Stage II,"HER2+, ER+/PR+",3,Chemotherapy,CAR-T cell therapy,121045,67.3,"neutropenia, neutropenia, fatigue, neuropathy, diarrhea",51,20
+ONC-00057,48,M,Prostate Cancer,Stage I,HER2+,1,Hormone therapy,Immunotherapy with pembrolizumab,164290,63.9,"neuropathy, rash, rash",41,9
+ONC-00058,61,M,Pancreatic Cancer,Stage IV,Triple Negative,1,None,Clinical trial enrollment,98230,43.1,"neuropathy, fatigue, rash, neutropenia",51,9
+ONC-00059,57,M,Melanoma,Stage II,BRAF V600E,3,Surgery only,Targeted therapy with trastuzumab,167351,38.8,"diarrhea, fatigue",88,21
+ONC-00060,59,M,Leukemia,Stage II,"ER+/PR+, ER+/PR+",0,Radiation therapy,CAR-T cell therapy,90830,55.4,"neuropathy, diarrhea, neuropathy, fatigue",54,7
+ONC-00061,56,F,Leukemia,Stage IV,HER2+,3,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,164852,28,"neuropathy, rash, rash",43,12
+ONC-00062,39,F,Colorectal Cancer,Stage II,Triple Negative,2,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,57355,94.1,"rash, fatigue, neuropathy, nausea",76,22
+ONC-00063,41,M,Melanoma,Stage I,"BRAF V600E, ALK positive, BRAF V600E",0,Radiation therapy,Targeted therapy with trastuzumab,115665,19.2,"rash, nausea, diarrhea, neutropenia, neutropenia",57,14
+ONC-00064,54,F,Leukemia,Stage III,"HER2+, HER2+, ER+/PR+",0,Radiation therapy,Hormone therapy with tamoxifen,161416,60.6,"diarrhea, diarrhea, fatigue, neuropathy, rash",71,7
+ONC-00065,65,F,Breast Cancer,Stage I,"MSI-high, MSI-high",0,Surgery only,Targeted therapy with trastuzumab,182576,35.7,"fatigue, neuropathy, nausea, neutropenia, fatigue",83,21
+ONC-00066,43,F,Pancreatic Cancer,Stage IV,"HER2+, EGFR mutation, ER+/PR+",0,Chemotherapy,Targeted therapy with trastuzumab,114706,48,"neutropenia, neutropenia",55,19
+ONC-00067,70,F,Prostate Cancer,Stage III,"MSI-high, MSI-high, ER+/PR+",1,Chemotherapy,CAR-T cell therapy,168403,60.3,"nausea, rash, neuropathy, neuropathy, diarrhea",56,22
+ONC-00068,61,F,Colorectal Cancer,Stage III,Triple Negative,3,Surgery only,Hormone therapy with tamoxifen,82316,77.9,"neutropenia, nausea, nausea",84,8
+ONC-00069,72,F,Prostate Cancer,Stage II,HER2+,2,Surgery only,Surgical resection with adjuvant therapy,164697,75.5,"diarrhea, neutropenia",87,6
+ONC-00070,73,M,Leukemia,Stage II,"ALK positive, ALK positive, PD-L1 positive",0,Immunotherapy,Surgical resection with adjuvant therapy,179479,51.2,"rash, neutropenia, nausea",93,9
+ONC-00071,69,M,Melanoma,Stage IV,"PD-L1 positive, HER2+",2,None,Targeted therapy with trastuzumab,177153,23.8,"neuropathy, rash, nausea, nausea, neutropenia",48,24
+ONC-00072,61,M,Prostate Cancer,Stage I,"BRAF V600E, MSI-high, EGFR mutation",2,Hormone therapy,Radiation therapy (60 Gy),80608,58.4,"neutropenia, neutropenia, neuropathy",71,23
+ONC-00073,71,M,Leukemia,Stage III,"HER2+, MSI-high",3,Radiation therapy,Hormone therapy with tamoxifen,154668,39.8,"rash, nausea, fatigue, rash, neutropenia",88,17
+ONC-00074,63,M,Lymphoma,Stage IV,EGFR mutation,0,Chemotherapy,Radiation therapy (60 Gy),162324,23.7,"fatigue, fatigue, diarrhea",54,6
+ONC-00075,64,M,Pancreatic Cancer,Stage I,"MSI-high, EGFR mutation, HER2+",3,Surgery only,Targeted therapy with trastuzumab,123592,82.5,"diarrhea, rash",52,7
+ONC-00076,65,F,Breast Cancer,Stage III,"BRAF V600E, HER2+",3,Radiation therapy,Targeted therapy with trastuzumab,106816,14.1,"fatigue, rash, rash, neutropenia, rash",50,22
+ONC-00077,43,M,Melanoma,Stage III,Triple Negative,3,Immunotherapy,Clinical trial enrollment,186093,79.9,"neuropathy, rash, nausea",90,22
+ONC-00078,46,F,Lymphoma,Stage III,"Triple Negative, ALK positive",3,Hormone therapy,Targeted therapy with trastuzumab,92573,54.7,"neutropenia, nausea, nausea, neutropenia, rash",87,7
+ONC-00079,54,F,Melanoma,Stage I,"EGFR mutation, PD-L1 positive",1,None,Radiation therapy (60 Gy),137193,92.2,"fatigue, nausea, fatigue, fatigue, nausea",90,20
+ONC-00080,25,F,Colorectal Cancer,Stage II,"BRAF V600E, ALK positive, EGFR mutation",3,Surgery only,Clinical trial enrollment,52211,83.6,"neuropathy, rash, fatigue, nausea",79,10
+ONC-00081,73,M,Colorectal Cancer,Stage I,"EGFR mutation, PD-L1 positive, EGFR mutation",1,Radiation therapy,Surgical resection with adjuvant therapy,167990,69.2,"fatigue, neuropathy",44,11
+ONC-00082,43,F,Melanoma,Stage IV,"ALK positive, EGFR mutation, ER+/PR+",1,Immunotherapy,Targeted therapy with trastuzumab,120405,81.6,"nausea, diarrhea, diarrhea, fatigue, fatigue",82,16
+ONC-00083,36,F,Melanoma,Stage III,"ALK positive, ALK positive",3,Surgery only,Immunotherapy with pembrolizumab,169076,49,"rash, diarrhea, neuropathy, nausea, rash",57,12
+ONC-00084,25,M,Leukemia,Stage III,"BRAF V600E, ALK positive",1,Hormone therapy,Hormone therapy with tamoxifen,157422,36.8,"fatigue, diarrhea, neuropathy, fatigue",45,9
+ONC-00085,52,M,Melanoma,Stage II,Triple Negative,0,Hormone therapy,Radiation therapy (60 Gy),93064,83.7,"neutropenia, nausea, rash",80,15
+ONC-00086,63,F,Lymphoma,Stage II,"EGFR mutation, Triple Negative, PD-L1 positive",3,Hormone therapy,Hormone therapy with tamoxifen,79160,77.1,"neutropenia, nausea, nausea, fatigue",57,13
+ONC-00087,42,M,Lung Cancer,Stage III,"Triple Negative, ALK positive, Triple Negative",0,Hormone therapy,Hormone therapy with tamoxifen,138680,18.1,"neuropathy, neuropathy, nausea, rash",81,18
+ONC-00088,55,M,Lymphoma,Stage I,"ALK positive, BRAF V600E, BRAF V600E",3,Chemotherapy,Radiation therapy (60 Gy),134237,41.2,"neutropenia, neutropenia, neutropenia, rash",58,12
+ONC-00089,66,M,Colorectal Cancer,Stage IV,"Triple Negative, Triple Negative",0,Hormone therapy,Targeted therapy with trastuzumab,67199,35.4,"nausea, rash, fatigue",59,14
+ONC-00090,68,M,Leukemia,Stage II,"Triple Negative, EGFR mutation, ALK positive",0,Radiation therapy,Surgical resection with adjuvant therapy,59403,52.6,"fatigue, nausea, diarrhea, rash, nausea",60,14
+ONC-00091,41,F,Lymphoma,Stage III,"BRAF V600E, HER2+",2,Targeted therapy,Clinical trial enrollment,99669,55,"nausea, rash, rash",75,12
+ONC-00092,60,F,Leukemia,Stage I,PD-L1 positive,3,Hormone therapy,Targeted therapy with trastuzumab,146201,54.8,"neutropenia, nausea, nausea",57,13
+ONC-00093,58,F,Colorectal Cancer,Stage IV,"ER+/PR+, EGFR mutation, PD-L1 positive",2,Radiation therapy,Clinical trial enrollment,162001,54.6,"rash, diarrhea",83,9
+ONC-00094,75,M,Leukemia,Stage II,"EGFR mutation, ALK positive, MSI-high",2,Chemotherapy,Hormone therapy with tamoxifen,173463,29.8,"neutropenia, nausea, neuropathy",58,22
+ONC-00095,62,M,Lung Cancer,Stage I,"HER2+, BRAF V600E",1,Chemotherapy,Surgical resection with adjuvant therapy,168643,85.4,"rash, diarrhea, fatigue, diarrhea",84,19
+ONC-00096,65,F,Lymphoma,Stage I,"ER+/PR+, MSI-high, EGFR mutation",0,Chemotherapy,Radiation therapy (60 Gy),194720,27.7,"neutropenia, neutropenia",69,21
+ONC-00097,59,M,Breast Cancer,Stage III,"ALK positive, PD-L1 positive",2,Chemotherapy,Immunotherapy with pembrolizumab,199082,83.3,"rash, neuropathy, nausea, fatigue, fatigue",61,18
+ONC-00098,82,F,Leukemia,Stage III,"BRAF V600E, ALK positive, HER2+",2,Chemotherapy,Radiation therapy (60 Gy),148682,40.1,"diarrhea, neutropenia, fatigue, rash, nausea",70,8
+ONC-00099,55,F,Breast Cancer,Stage IV,EGFR mutation,3,Chemotherapy,Radiation therapy (60 Gy),199758,11.6,"fatigue, nausea, rash, neuropathy",55,11
+ONC-00100,78,F,Lymphoma,Stage III,"ALK positive, ALK positive, BRAF V600E",1,Immunotherapy,Hormone therapy with tamoxifen,161044,74.9,"neuropathy, neuropathy, nausea",81,9
+ONC-00101,49,M,Breast Cancer,Stage II,"MSI-high, PD-L1 positive, HER2+",1,Targeted therapy,CAR-T cell therapy,199096,71.4,"diarrhea, fatigue, fatigue, nausea",77,22
+ONC-00102,51,F,Breast Cancer,Stage II,"EGFR mutation, Triple Negative, EGFR mutation",2,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,181098,21.8,"rash, fatigue",63,21
+ONC-00103,44,M,Lung Cancer,Stage III,"PD-L1 positive, ALK positive",1,None,Clinical trial enrollment,61677,52,"fatigue, neuropathy",89,13
+ONC-00104,70,M,Breast Cancer,Stage IV,"EGFR mutation, Triple Negative",1,Surgery only,Hormone therapy with tamoxifen,52449,65.6,"nausea, fatigue",48,7
+ONC-00105,73,F,Melanoma,Stage III,"ALK positive, MSI-high",1,Chemotherapy,Surgical resection with adjuvant therapy,187331,70.6,"neuropathy, neutropenia, nausea, diarrhea",73,8
+ONC-00106,55,F,Prostate Cancer,Stage IV,ER+/PR+,2,Hormone therapy,Immunotherapy with pembrolizumab,65264,92.4,"neutropenia, nausea, nausea, rash",42,16
+ONC-00107,63,M,Leukemia,Stage I,EGFR mutation,3,None,Surgical resection with adjuvant therapy,170001,87,"diarrhea, rash, fatigue, fatigue",55,9
+ONC-00108,59,F,Pancreatic Cancer,Stage I,"Triple Negative, Triple Negative",3,None,Chemotherapy with carboplatin/paclitaxel,191151,54,"diarrhea, neuropathy, rash, neutropenia",53,13
+ONC-00109,62,M,Pancreatic Cancer,Stage II,"MSI-high, MSI-high",1,Hormone therapy,Targeted therapy with trastuzumab,83695,42,"diarrhea, fatigue, neutropenia, fatigue",95,9
+ONC-00110,58,M,Lymphoma,Stage IV,"MSI-high, BRAF V600E, MSI-high",1,Targeted therapy,Clinical trial enrollment,128751,91,"neutropenia, diarrhea, neuropathy",92,21
+ONC-00111,61,F,Colorectal Cancer,Stage IV,"Triple Negative, Triple Negative, MSI-high",1,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,75311,76.5,"neuropathy, nausea, nausea",50,15
+ONC-00112,73,M,Lymphoma,Stage I,"BRAF V600E, BRAF V600E",1,Radiation therapy,Surgical resection with adjuvant therapy,71605,41.9,"rash, neutropenia, rash",67,14
+ONC-00113,65,M,Breast Cancer,Stage IV,"Triple Negative, Triple Negative, BRAF V600E",2,None,Immunotherapy with pembrolizumab,69986,40,"fatigue, neuropathy",44,11
+ONC-00114,75,F,Melanoma,Stage I,ALK positive,1,Chemotherapy,Surgical resection with adjuvant therapy,165061,49,"neuropathy, nausea, nausea",71,17
+ONC-00115,51,F,Lymphoma,Stage IV,"HER2+, ALK positive",1,None,Hormone therapy with tamoxifen,140168,61.6,"fatigue, neutropenia, rash",53,13
+ONC-00116,69,M,Pancreatic Cancer,Stage II,"PD-L1 positive, BRAF V600E, ER+/PR+",3,Immunotherapy,Hormone therapy with tamoxifen,93071,64.1,"rash, diarrhea, nausea",54,14
+ONC-00117,40,F,Lymphoma,Stage III,"HER2+, Triple Negative, Triple Negative",3,Chemotherapy,Immunotherapy with pembrolizumab,158662,80.4,"fatigue, neutropenia",74,16
+ONC-00118,46,M,Melanoma,Stage I,"ER+/PR+, ALK positive, ALK positive",0,Radiation therapy,Hormone therapy with tamoxifen,147845,82.8,"diarrhea, fatigue, neuropathy",92,24
+ONC-00119,59,M,Prostate Cancer,Stage IV,"BRAF V600E, ER+/PR+, ALK positive",3,Targeted therapy,Hormone therapy with tamoxifen,96392,83,"rash, neutropenia, fatigue, neuropathy, nausea",48,18
+ONC-00120,56,F,Lymphoma,Stage II,ER+/PR+,0,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,122464,79.8,"fatigue, neutropenia, fatigue",46,7
+ONC-00121,40,M,Melanoma,Stage III,"PD-L1 positive, PD-L1 positive, HER2+",3,Radiation therapy,Radiation therapy (60 Gy),171909,34.6,"diarrhea, rash, rash",92,15
+ONC-00122,37,F,Colorectal Cancer,Stage IV,"PD-L1 positive, ALK positive",0,Surgery only,Surgical resection with adjuvant therapy,158736,93,"rash, fatigue",95,8
+ONC-00123,51,M,Pancreatic Cancer,Stage II,ER+/PR+,3,Chemotherapy,Radiation therapy (60 Gy),189231,82.1,"diarrhea, neuropathy, rash, neuropathy, nausea",93,15
+ONC-00124,54,F,Colorectal Cancer,Stage I,ALK positive,0,None,Immunotherapy with pembrolizumab,176835,91.7,"diarrhea, nausea",43,7
+ONC-00125,25,M,Breast Cancer,Stage II,"Triple Negative, PD-L1 positive",1,Hormone therapy,Surgical resection with adjuvant therapy,118236,33,"nausea, neuropathy, fatigue, neutropenia",78,17
+ONC-00126,85,F,Prostate Cancer,Stage IV,ALK positive,3,None,CAR-T cell therapy,94085,83.3,"rash, neutropenia, nausea",81,16
+ONC-00127,67,M,Melanoma,Stage III,"MSI-high, MSI-high",1,None,Hormone therapy with tamoxifen,107679,13.2,"diarrhea, nausea, rash, neuropathy",55,17
+ONC-00128,45,M,Lung Cancer,Stage III,"EGFR mutation, PD-L1 positive, ER+/PR+",0,Chemotherapy,Targeted therapy with trastuzumab,88404,74.7,"diarrhea, rash, fatigue, rash",92,13
+ONC-00129,60,F,Lymphoma,Stage II,"HER2+, MSI-high",0,Radiation therapy,Radiation therapy (60 Gy),59214,57.9,"nausea, neuropathy, nausea, diarrhea, neuropathy",75,19
+ONC-00130,54,M,Leukemia,Stage I,"MSI-high, MSI-high",3,Targeted therapy,Radiation therapy (60 Gy),87632,16.8,"diarrhea, neuropathy, neuropathy, rash, rash",65,11
+ONC-00131,47,M,Lymphoma,Stage III,"MSI-high, EGFR mutation",2,Targeted therapy,Immunotherapy with pembrolizumab,124207,63.9,"fatigue, neuropathy",66,14
+ONC-00132,46,F,Melanoma,Stage IV,Triple Negative,3,Targeted therapy,Radiation therapy (60 Gy),66859,30.1,"rash, neuropathy, nausea, neuropathy",58,21
+ONC-00133,48,F,Lung Cancer,Stage III,"ER+/PR+, EGFR mutation, MSI-high",0,None,Immunotherapy with pembrolizumab,177920,36.5,"neutropenia, nausea",44,21
+ONC-00134,54,F,Pancreatic Cancer,Stage I,"ALK positive, ALK positive, BRAF V600E",1,Hormone therapy,Clinical trial enrollment,84844,46.8,"rash, nausea, neutropenia, nausea, rash",77,19
+ONC-00135,61,F,Leukemia,Stage IV,EGFR mutation,3,None,Clinical trial enrollment,152934,36.5,"fatigue, fatigue, rash",74,10
+ONC-00136,55,M,Pancreatic Cancer,Stage IV,"BRAF V600E, EGFR mutation",3,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,103520,47.7,"neuropathy, fatigue, rash, neutropenia, diarrhea",58,24
+ONC-00137,56,F,Prostate Cancer,Stage II,"HER2+, MSI-high",1,Surgery only,Surgical resection with adjuvant therapy,160340,69.3,"neuropathy, nausea",52,16
+ONC-00138,61,F,Colorectal Cancer,Stage III,"PD-L1 positive, BRAF V600E",0,Immunotherapy,Immunotherapy with pembrolizumab,88365,56.6,"fatigue, nausea, neuropathy",64,11
+ONC-00139,59,M,Lymphoma,Stage IV,"ER+/PR+, BRAF V600E",0,Chemotherapy,Hormone therapy with tamoxifen,155222,13,"diarrhea, neuropathy, neuropathy, neutropenia",55,7
+ONC-00140,49,M,Lymphoma,Stage II,"ALK positive, HER2+",1,Immunotherapy,CAR-T cell therapy,162527,77.6,"neutropenia, diarrhea, fatigue, neuropathy",81,13
+ONC-00141,66,F,Lymphoma,Stage II,ER+/PR+,0,Targeted therapy,Radiation therapy (60 Gy),133770,83.5,"rash, neutropenia, rash, rash",49,21
+ONC-00142,47,F,Prostate Cancer,Stage I,ALK positive,2,Radiation therapy,Targeted therapy with trastuzumab,156192,69.1,"fatigue, rash, nausea, neutropenia",58,14
+ONC-00143,73,F,Pancreatic Cancer,Stage III,HER2+,0,Immunotherapy,Surgical resection with adjuvant therapy,112187,20.8,"neutropenia, nausea",64,23
+ONC-00144,74,F,Colorectal Cancer,Stage III,"HER2+, BRAF V600E, EGFR mutation",3,Surgery only,Surgical resection with adjuvant therapy,66214,30.9,"fatigue, fatigue, nausea",95,7
+ONC-00145,56,F,Breast Cancer,Stage III,"ER+/PR+, HER2+",2,Targeted therapy,Immunotherapy with pembrolizumab,154543,49.6,"fatigue, neutropenia",94,11
+ONC-00146,65,M,Breast Cancer,Stage IV,"ALK positive, ER+/PR+",2,Radiation therapy,Radiation therapy (60 Gy),138015,87.8,"neutropenia, nausea, neuropathy, nausea",62,6
+ONC-00147,53,M,Colorectal Cancer,Stage I,"ER+/PR+, BRAF V600E, HER2+",1,Radiation therapy,Radiation therapy (60 Gy),103359,60.1,"fatigue, nausea",83,20
+ONC-00148,80,M,Lymphoma,Stage I,"MSI-high, ER+/PR+",0,Immunotherapy,Radiation therapy (60 Gy),69485,40.2,"diarrhea, diarrhea, rash, fatigue",74,20
+ONC-00149,65,M,Colorectal Cancer,Stage III,BRAF V600E,2,Immunotherapy,Surgical resection with adjuvant therapy,68321,43.5,"diarrhea, fatigue, rash, diarrhea",92,8
+ONC-00150,51,F,Breast Cancer,Stage IV,"BRAF V600E, ER+/PR+, PD-L1 positive",3,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,118140,90.7,"neutropenia, fatigue, diarrhea, diarrhea, neutropenia",86,20
+ONC-00151,43,M,Lung Cancer,Stage II,Triple Negative,0,Targeted therapy,CAR-T cell therapy,123475,19.3,"nausea, fatigue",63,10
+ONC-00152,64,F,Leukemia,Stage IV,"EGFR mutation, EGFR mutation, BRAF V600E",2,Hormone therapy,Surgical resection with adjuvant therapy,101567,15.2,"neutropenia, neutropenia, nausea",47,16
+ONC-00153,68,F,Colorectal Cancer,Stage II,"Triple Negative, BRAF V600E",2,Radiation therapy,Clinical trial enrollment,74065,86.2,"fatigue, rash, diarrhea",45,20
+ONC-00154,69,M,Colorectal Cancer,Stage IV,"MSI-high, ALK positive, Triple Negative",2,Targeted therapy,Radiation therapy (60 Gy),56383,28.6,"neutropenia, fatigue, neuropathy",51,13
+ONC-00155,53,F,Leukemia,Stage IV,"MSI-high, BRAF V600E",2,Hormone therapy,Hormone therapy with tamoxifen,171519,87.4,"diarrhea, neutropenia, diarrhea, neuropathy, nausea",85,20
+ONC-00156,82,F,Pancreatic Cancer,Stage II,ER+/PR+,2,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,162924,47.2,"rash, rash, nausea, neuropathy, neuropathy",51,12
+ONC-00157,44,M,Prostate Cancer,Stage I,"ALK positive, ER+/PR+, MSI-high",2,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,138786,48,"neutropenia, neutropenia, fatigue, diarrhea",41,16
+ONC-00158,70,F,Leukemia,Stage III,"ER+/PR+, ALK positive",0,None,Surgical resection with adjuvant therapy,174738,49,"diarrhea, neutropenia",55,18
+ONC-00159,49,M,Pancreatic Cancer,Stage III,HER2+,2,Surgery only,Surgical resection with adjuvant therapy,128073,63.4,"fatigue, neuropathy, neuropathy",77,8
+ONC-00160,75,M,Leukemia,Stage I,"MSI-high, ALK positive, ER+/PR+",1,Chemotherapy,Hormone therapy with tamoxifen,57830,33.5,"neuropathy, neuropathy, neutropenia, neutropenia",72,23
+ONC-00161,68,F,Lung Cancer,Stage II,PD-L1 positive,2,Targeted therapy,Radiation therapy (60 Gy),62177,36.1,"nausea, rash",66,23
+ONC-00162,61,M,Leukemia,Stage IV,"PD-L1 positive, BRAF V600E, EGFR mutation",0,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,188039,12.3,"nausea, fatigue, neutropenia, diarrhea, fatigue",85,9
+ONC-00163,58,M,Breast Cancer,Stage III,ER+/PR+,3,Surgery only,Immunotherapy with pembrolizumab,80444,35,"nausea, neutropenia, rash",52,21
+ONC-00164,64,F,Leukemia,Stage I,EGFR mutation,1,Immunotherapy,Immunotherapy with pembrolizumab,199968,67.1,"neuropathy, nausea, fatigue, nausea",74,7
+ONC-00165,53,M,Lung Cancer,Stage IV,BRAF V600E,2,Radiation therapy,Radiation therapy (60 Gy),166671,15.4,"diarrhea, nausea, diarrhea, diarrhea, diarrhea",48,15
+ONC-00166,69,M,Prostate Cancer,Stage II,"PD-L1 positive, Triple Negative",3,Radiation therapy,Immunotherapy with pembrolizumab,160991,66.3,"neuropathy, nausea, rash",62,22
+ONC-00167,49,F,Leukemia,Stage IV,"PD-L1 positive, BRAF V600E, HER2+",2,Surgery only,Chemotherapy with carboplatin/paclitaxel,143124,91.5,"neutropenia, neutropenia, fatigue, neutropenia",59,8
+ONC-00168,50,F,Prostate Cancer,Stage II,"MSI-high, HER2+",3,Radiation therapy,CAR-T cell therapy,172591,37,"neutropenia, diarrhea, diarrhea, rash, neutropenia",63,15
+ONC-00169,69,M,Lung Cancer,Stage II,BRAF V600E,1,Surgery only,Radiation therapy (60 Gy),190690,94.7,"fatigue, fatigue, neutropenia",82,11
+ONC-00170,78,F,Colorectal Cancer,Stage II,EGFR mutation,2,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,181226,66.2,"nausea, neutropenia, diarrhea, neutropenia, nausea",83,16
+ONC-00171,39,M,Colorectal Cancer,Stage IV,"MSI-high, PD-L1 positive",2,None,CAR-T cell therapy,157467,29.5,"rash, diarrhea",83,12
+ONC-00172,76,M,Breast Cancer,Stage II,BRAF V600E,1,Immunotherapy,Surgical resection with adjuvant therapy,183910,64.3,"neuropathy, fatigue",89,13
+ONC-00173,48,M,Melanoma,Stage IV,"ER+/PR+, HER2+",1,Radiation therapy,Radiation therapy (60 Gy),174823,60.9,"diarrhea, nausea, neuropathy",59,16
+ONC-00174,69,F,Lung Cancer,Stage IV,"PD-L1 positive, BRAF V600E",1,Surgery only,Hormone therapy with tamoxifen,186296,65.4,"nausea, diarrhea, rash, neuropathy",59,20
+ONC-00175,38,M,Melanoma,Stage II,"ALK positive, PD-L1 positive, ALK positive",2,Targeted therapy,Clinical trial enrollment,103658,93.9,"fatigue, diarrhea, rash",87,19
+ONC-00176,75,F,Leukemia,Stage I,"ER+/PR+, EGFR mutation",2,Surgery only,Surgical resection with adjuvant therapy,63020,42.5,"neutropenia, nausea",54,17
+ONC-00177,60,M,Pancreatic Cancer,Stage II,"Triple Negative, MSI-high, MSI-high",1,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,116976,37.1,"fatigue, rash, diarrhea",57,23
+ONC-00178,58,M,Lung Cancer,Stage III,"BRAF V600E, Triple Negative",2,None,Clinical trial enrollment,136870,43.1,"neuropathy, fatigue, rash, neuropathy, diarrhea",45,6
+ONC-00179,54,F,Lymphoma,Stage III,"BRAF V600E, MSI-high, ER+/PR+",0,Targeted therapy,Surgical resection with adjuvant therapy,133633,23,"neutropenia, nausea",50,7
+ONC-00180,28,F,Pancreatic Cancer,Stage II,HER2+,0,Immunotherapy,Clinical trial enrollment,99656,94.2,"neuropathy, fatigue",85,6
+ONC-00181,31,F,Lymphoma,Stage I,"PD-L1 positive, EGFR mutation, MSI-high",2,None,CAR-T cell therapy,103219,33.5,"diarrhea, rash, neutropenia",47,13
+ONC-00182,41,M,Breast Cancer,Stage III,BRAF V600E,2,None,Surgical resection with adjuvant therapy,170377,42,"diarrhea, nausea, rash",53,15
+ONC-00183,74,F,Lymphoma,Stage III,"ALK positive, ALK positive",2,Immunotherapy,Clinical trial enrollment,111713,26.7,"diarrhea, neutropenia, neutropenia, rash",64,10
+ONC-00184,50,M,Colorectal Cancer,Stage II,EGFR mutation,0,Hormone therapy,Clinical trial enrollment,198185,50.2,"nausea, rash, rash, rash",78,10
+ONC-00185,55,M,Leukemia,Stage IV,"Triple Negative, EGFR mutation, Triple Negative",1,Chemotherapy,Clinical trial enrollment,198633,59.8,"nausea, neuropathy",95,6
+ONC-00186,50,M,Prostate Cancer,Stage II,"Triple Negative, BRAF V600E, MSI-high",3,Hormone therapy,Targeted therapy with trastuzumab,155868,36.6,"diarrhea, fatigue, fatigue, neutropenia, neuropathy",82,22
+ONC-00187,73,M,Melanoma,Stage IV,MSI-high,3,Immunotherapy,Immunotherapy with pembrolizumab,166564,89.1,"neutropenia, neuropathy, diarrhea, neuropathy",69,12
+ONC-00188,74,F,Lung Cancer,Stage II,"ER+/PR+, PD-L1 positive, Triple Negative",1,Radiation therapy,Surgical resection with adjuvant therapy,155265,31.6,"neutropenia, neutropenia, rash",86,22
+ONC-00189,51,F,Pancreatic Cancer,Stage I,PD-L1 positive,2,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,134554,51.6,"neuropathy, neutropenia, fatigue, neuropathy",77,6
+ONC-00190,56,F,Leukemia,Stage III,"EGFR mutation, EGFR mutation",2,Hormone therapy,Immunotherapy with pembrolizumab,175805,52.6,"neutropenia, diarrhea, neuropathy, nausea, neutropenia",54,9
+ONC-00191,45,F,Melanoma,Stage III,"EGFR mutation, MSI-high",0,None,Chemotherapy with carboplatin/paclitaxel,164953,69.1,"diarrhea, neuropathy, fatigue",88,21
+ONC-00192,72,M,Lymphoma,Stage II,"Triple Negative, EGFR mutation",3,Surgery only,CAR-T cell therapy,188602,29.8,"rash, neutropenia, neutropenia, neuropathy",75,13
+ONC-00193,56,M,Lymphoma,Stage III,"Triple Negative, ALK positive, EGFR mutation",0,Surgery only,Clinical trial enrollment,82146,50.1,"neutropenia, diarrhea, fatigue, nausea, nausea",45,10
+ONC-00194,61,F,Pancreatic Cancer,Stage II,"BRAF V600E, Triple Negative, HER2+",0,Hormone therapy,Radiation therapy (60 Gy),140578,58.6,"nausea, fatigue, diarrhea, nausea, fatigue",41,15
+ONC-00195,79,F,Lymphoma,Stage III,"MSI-high, BRAF V600E",0,Immunotherapy,Immunotherapy with pembrolizumab,153050,30.6,"fatigue, rash",73,15
+ONC-00196,80,F,Lymphoma,Stage III,"PD-L1 positive, PD-L1 positive",0,Surgery only,Chemotherapy with carboplatin/paclitaxel,130291,62.4,"diarrhea, rash, nausea",90,21
+ONC-00197,56,M,Colorectal Cancer,Stage II,"MSI-high, PD-L1 positive, ALK positive",1,Immunotherapy,Radiation therapy (60 Gy),143017,75.9,"fatigue, diarrhea",91,15
+ONC-00198,67,M,Pancreatic Cancer,Stage I,"EGFR mutation, HER2+, MSI-high",1,Radiation therapy,CAR-T cell therapy,59807,74.8,"diarrhea, rash, diarrhea, neutropenia",61,24
+ONC-00199,47,F,Leukemia,Stage I,"BRAF V600E, HER2+, HER2+",1,Radiation therapy,Clinical trial enrollment,51051,62.9,"neuropathy, nausea, neutropenia",72,10
+ONC-00200,79,F,Breast Cancer,Stage I,"PD-L1 positive, MSI-high",3,None,Targeted therapy with trastuzumab,111873,91.3,"fatigue, fatigue, nausea, neutropenia, diarrhea",53,12
+ONC-00201,72,F,Lymphoma,Stage I,"PD-L1 positive, Triple Negative, HER2+",2,None,Clinical trial enrollment,125955,44.5,"neutropenia, neuropathy, neutropenia, rash, rash",76,23
+ONC-00202,28,M,Colorectal Cancer,Stage I,EGFR mutation,2,Hormone therapy,Immunotherapy with pembrolizumab,92249,30,"neutropenia, fatigue",64,23
+ONC-00203,75,F,Lung Cancer,Stage IV,"BRAF V600E, ER+/PR+",3,Radiation therapy,Radiation therapy (60 Gy),53977,50.1,"nausea, fatigue, nausea, nausea",88,18
+ONC-00204,56,M,Breast Cancer,Stage IV,"Triple Negative, HER2+",0,Targeted therapy,Radiation therapy (60 Gy),89810,72.3,"nausea, neuropathy, rash",43,18
+ONC-00205,72,F,Breast Cancer,Stage II,"BRAF V600E, MSI-high",3,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,141254,22.7,"neuropathy, neuropathy, nausea, nausea, nausea",57,20
+ONC-00206,54,F,Lymphoma,Stage II,BRAF V600E,2,None,Immunotherapy with pembrolizumab,175231,16.1,"rash, neutropenia",86,16
+ONC-00207,56,F,Melanoma,Stage I,"EGFR mutation, ER+/PR+",3,Radiation therapy,Immunotherapy with pembrolizumab,180961,80.6,"rash, diarrhea, neuropathy, neutropenia, diarrhea",70,7
+ONC-00208,59,F,Lymphoma,Stage IV,"EGFR mutation, ALK positive, EGFR mutation",0,None,Chemotherapy with carboplatin/paclitaxel,122135,11,"neutropenia, diarrhea, diarrhea, fatigue, nausea",74,18
+ONC-00209,54,M,Pancreatic Cancer,Stage IV,"MSI-high, ALK positive, ER+/PR+",1,None,Clinical trial enrollment,58562,76,"diarrhea, neutropenia, diarrhea, neutropenia",59,24
+ONC-00210,85,F,Melanoma,Stage II,"HER2+, ER+/PR+",1,Radiation therapy,Hormone therapy with tamoxifen,195775,62.7,"rash, neuropathy",68,24
+ONC-00211,51,M,Breast Cancer,Stage IV,"BRAF V600E, EGFR mutation",3,Chemotherapy,Radiation therapy (60 Gy),176893,59.3,"neuropathy, neuropathy, neutropenia, nausea",58,19
+ONC-00212,46,M,Pancreatic Cancer,Stage IV,"BRAF V600E, Triple Negative",0,None,Surgical resection with adjuvant therapy,110876,62.2,"rash, neuropathy, neuropathy, nausea, rash",78,17
+ONC-00213,64,M,Melanoma,Stage II,MSI-high,2,Targeted therapy,Targeted therapy with trastuzumab,149976,34.3,"nausea, neuropathy, neuropathy",79,19
+ONC-00214,25,F,Melanoma,Stage IV,"ER+/PR+, ALK positive, Triple Negative",1,Immunotherapy,Hormone therapy with tamoxifen,66992,47.1,"nausea, nausea, neutropenia, nausea, neuropathy",87,15
+ONC-00215,29,F,Lymphoma,Stage III,"MSI-high, Triple Negative, ER+/PR+",3,None,Immunotherapy with pembrolizumab,71636,16.4,"rash, neutropenia",54,7
+ONC-00216,52,M,Colorectal Cancer,Stage IV,"Triple Negative, EGFR mutation",1,Targeted therapy,Clinical trial enrollment,97101,25.1,"neutropenia, neuropathy, fatigue, neuropathy, fatigue",50,10
+ONC-00217,82,M,Breast Cancer,Stage III,EGFR mutation,1,Immunotherapy,Hormone therapy with tamoxifen,185974,29.3,"neuropathy, rash",44,20
+ONC-00218,54,F,Prostate Cancer,Stage III,"MSI-high, ER+/PR+",1,Targeted therapy,Surgical resection with adjuvant therapy,72279,61.4,"neuropathy, diarrhea",84,20
+ONC-00219,45,F,Melanoma,Stage III,EGFR mutation,1,Immunotherapy,Hormone therapy with tamoxifen,157927,78.2,"neutropenia, nausea",70,24
+ONC-00220,25,M,Lymphoma,Stage I,"BRAF V600E, ER+/PR+, BRAF V600E",3,Immunotherapy,CAR-T cell therapy,162110,16,"fatigue, fatigue, fatigue, diarrhea, neuropathy",90,24
+ONC-00221,55,M,Prostate Cancer,Stage IV,PD-L1 positive,2,Chemotherapy,Clinical trial enrollment,132158,63.8,"rash, neuropathy, neutropenia, neuropathy",61,22
+ONC-00222,56,F,Breast Cancer,Stage I,EGFR mutation,1,None,Radiation therapy (60 Gy),113554,35,"rash, fatigue",93,19
+ONC-00223,36,F,Leukemia,Stage I,EGFR mutation,1,Immunotherapy,Targeted therapy with trastuzumab,165241,13.5,"fatigue, nausea, fatigue, nausea",67,24
+ONC-00224,84,F,Lung Cancer,Stage III,ALK positive,3,Immunotherapy,Surgical resection with adjuvant therapy,51410,57.6,"diarrhea, nausea",93,22
+ONC-00225,67,M,Breast Cancer,Stage I,"PD-L1 positive, ER+/PR+, Triple Negative",3,None,Targeted therapy with trastuzumab,195077,73.4,"neutropenia, fatigue, fatigue, neuropathy, nausea",71,23
+ONC-00226,63,F,Lung Cancer,Stage II,"PD-L1 positive, ER+/PR+, ER+/PR+",3,Hormone therapy,CAR-T cell therapy,78912,48.9,"neuropathy, rash, neuropathy",72,7
+ONC-00227,77,M,Melanoma,Stage I,"Triple Negative, ALK positive",1,Hormone therapy,Immunotherapy with pembrolizumab,123327,94.2,"fatigue, diarrhea, nausea",81,20
+ONC-00228,82,F,Colorectal Cancer,Stage I,"EGFR mutation, ALK positive",2,Hormone therapy,Immunotherapy with pembrolizumab,75604,31.6,"neutropenia, diarrhea, fatigue, rash",72,18
+ONC-00229,54,F,Melanoma,Stage IV,Triple Negative,2,Hormone therapy,Radiation therapy (60 Gy),171077,22.1,"neutropenia, rash, fatigue, neutropenia",72,19
+ONC-00230,29,M,Pancreatic Cancer,Stage I,"Triple Negative, MSI-high",3,Hormone therapy,Surgical resection with adjuvant therapy,93598,12.8,"fatigue, nausea",92,24
+ONC-00231,44,F,Lymphoma,Stage III,ALK positive,3,Immunotherapy,CAR-T cell therapy,84088,22.5,"rash, diarrhea, fatigue, rash",70,9
+ONC-00232,54,M,Colorectal Cancer,Stage II,EGFR mutation,2,Surgery only,Immunotherapy with pembrolizumab,73101,41.7,"diarrhea, diarrhea, nausea, nausea",78,7
+ONC-00233,46,F,Leukemia,Stage IV,ALK positive,2,None,CAR-T cell therapy,167985,62.7,"fatigue, rash, neuropathy",71,20
+ONC-00234,50,M,Lung Cancer,Stage IV,"Triple Negative, BRAF V600E, Triple Negative",1,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,74454,38.2,"rash, neutropenia",91,14
+ONC-00235,51,F,Breast Cancer,Stage II,MSI-high,3,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,92964,62.6,"neutropenia, neuropathy, neuropathy, diarrhea",85,23
+ONC-00236,71,M,Leukemia,Stage IV,"EGFR mutation, HER2+, Triple Negative",3,None,Chemotherapy with carboplatin/paclitaxel,119928,54.2,"neutropenia, neutropenia",48,12
+ONC-00237,70,F,Breast Cancer,Stage III,"BRAF V600E, ER+/PR+, PD-L1 positive",1,Chemotherapy,Immunotherapy with pembrolizumab,152734,60.5,"nausea, nausea",79,14
+ONC-00238,75,M,Lymphoma,Stage IV,"HER2+, PD-L1 positive, ER+/PR+",2,Hormone therapy,Surgical resection with adjuvant therapy,73058,53.1,"neuropathy, rash",89,11
+ONC-00239,72,F,Lung Cancer,Stage III,"HER2+, PD-L1 positive, PD-L1 positive",2,Surgery only,CAR-T cell therapy,109264,91.7,"neutropenia, fatigue, rash, neuropathy",67,23
+ONC-00240,35,M,Leukemia,Stage II,"MSI-high, MSI-high, EGFR mutation",3,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,128122,14.1,"rash, fatigue, neuropathy, nausea, neutropenia",47,11
+ONC-00241,59,M,Pancreatic Cancer,Stage I,HER2+,0,Chemotherapy,Targeted therapy with trastuzumab,126196,86.8,"diarrhea, fatigue, neuropathy, fatigue",83,13
+ONC-00242,62,M,Breast Cancer,Stage II,"EGFR mutation, ALK positive, MSI-high",2,Hormone therapy,Surgical resection with adjuvant therapy,165839,56.3,"fatigue, nausea, rash, neutropenia",56,6
+ONC-00243,44,M,Lymphoma,Stage I,"BRAF V600E, BRAF V600E",1,None,Radiation therapy (60 Gy),145799,20.1,"nausea, nausea, rash, nausea",59,8
+ONC-00244,85,F,Melanoma,Stage IV,"Triple Negative, EGFR mutation",2,Chemotherapy,CAR-T cell therapy,197004,57.1,"neutropenia, fatigue",42,8
+ONC-00245,53,M,Pancreatic Cancer,Stage II,BRAF V600E,1,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,196661,94.6,"neutropenia, diarrhea, rash",92,14
+ONC-00246,57,M,Pancreatic Cancer,Stage II,ER+/PR+,0,Immunotherapy,CAR-T cell therapy,92489,22.1,"rash, nausea, diarrhea, nausea",77,9
+ONC-00247,68,M,Breast Cancer,Stage IV,"Triple Negative, ALK positive, ALK positive",3,Targeted therapy,Hormone therapy with tamoxifen,120192,21.8,"nausea, neutropenia, neuropathy, neutropenia",86,9
+ONC-00248,51,M,Leukemia,Stage II,"BRAF V600E, EGFR mutation",0,Surgery only,Radiation therapy (60 Gy),123449,25.6,"fatigue, fatigue, neutropenia, rash",55,23
+ONC-00249,71,M,Melanoma,Stage III,HER2+,3,Hormone therapy,CAR-T cell therapy,148434,49.6,"nausea, diarrhea, fatigue",78,18
+ONC-00250,35,M,Prostate Cancer,Stage II,"BRAF V600E, EGFR mutation",0,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,103624,40,"rash, rash, fatigue",60,23
+ONC-00251,64,F,Breast Cancer,Stage I,"Triple Negative, MSI-high, EGFR mutation",2,Targeted therapy,Clinical trial enrollment,168579,39.7,"rash, nausea, rash",71,9
+ONC-00252,51,M,Melanoma,Stage II,"ER+/PR+, MSI-high",2,Hormone therapy,Clinical trial enrollment,159247,91.1,"diarrhea, neutropenia, rash, diarrhea, neuropathy",83,21
+ONC-00253,79,M,Colorectal Cancer,Stage IV,"ER+/PR+, MSI-high",1,Chemotherapy,Targeted therapy with trastuzumab,50561,21,"diarrhea, nausea",69,9
+ONC-00254,63,M,Breast Cancer,Stage I,"EGFR mutation, Triple Negative, PD-L1 positive",3,None,CAR-T cell therapy,137964,48.8,"fatigue, fatigue",79,8
+ONC-00255,80,F,Prostate Cancer,Stage IV,MSI-high,1,Radiation therapy,Radiation therapy (60 Gy),124786,45.6,"neuropathy, neutropenia, neutropenia, neutropenia, fatigue",94,17
+ONC-00256,54,M,Pancreatic Cancer,Stage II,"HER2+, ER+/PR+",1,Chemotherapy,CAR-T cell therapy,133989,70.3,"diarrhea, fatigue, diarrhea, neuropathy, rash",77,8
+ONC-00257,34,M,Colorectal Cancer,Stage IV,"EGFR mutation, Triple Negative, ER+/PR+",1,Radiation therapy,Clinical trial enrollment,97908,15.9,"fatigue, rash",66,8
+ONC-00258,56,F,Leukemia,Stage I,Triple Negative,3,Hormone therapy,Hormone therapy with tamoxifen,107309,54.6,"rash, rash, nausea, fatigue",54,6
+ONC-00259,44,M,Lymphoma,Stage III,"MSI-high, BRAF V600E, ALK positive",1,Radiation therapy,CAR-T cell therapy,62036,59.2,"fatigue, diarrhea",51,17
+ONC-00260,85,M,Melanoma,Stage III,"EGFR mutation, MSI-high, EGFR mutation",0,None,Clinical trial enrollment,195302,79.1,"neutropenia, neutropenia, diarrhea, neuropathy",81,24
+ONC-00261,52,M,Pancreatic Cancer,Stage I,ER+/PR+,0,Immunotherapy,Clinical trial enrollment,59266,38.6,"neuropathy, diarrhea",75,6
+ONC-00262,83,F,Pancreatic Cancer,Stage III,MSI-high,0,Chemotherapy,CAR-T cell therapy,159701,64.5,"diarrhea, diarrhea, fatigue, neutropenia, diarrhea",69,23
+ONC-00263,71,F,Prostate Cancer,Stage III,"ER+/PR+, PD-L1 positive",0,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,193407,20.1,"rash, nausea, diarrhea, diarrhea, fatigue",72,18
+ONC-00264,85,F,Breast Cancer,Stage IV,"PD-L1 positive, PD-L1 positive, PD-L1 positive",0,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,171194,15.3,"rash, rash, rash",71,12
+ONC-00265,70,F,Lung Cancer,Stage II,ALK positive,0,Radiation therapy,Hormone therapy with tamoxifen,136485,33.8,"neutropenia, neuropathy, neuropathy",49,22
+ONC-00266,45,M,Lymphoma,Stage III,Triple Negative,1,None,Immunotherapy with pembrolizumab,88614,36,"fatigue, diarrhea, rash, nausea, diarrhea",83,22
+ONC-00267,47,F,Lymphoma,Stage III,"ER+/PR+, Triple Negative",2,Immunotherapy,Radiation therapy (60 Gy),191137,42.6,"diarrhea, neuropathy, fatigue, neuropathy, neuropathy",94,14
+ONC-00268,62,M,Lung Cancer,Stage III,"Triple Negative, Triple Negative",0,Radiation therapy,Radiation therapy (60 Gy),95886,17.9,"neutropenia, fatigue, fatigue",50,12
+ONC-00269,72,M,Colorectal Cancer,Stage IV,"ER+/PR+, ALK positive",3,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,183148,89.5,"rash, fatigue, neuropathy, diarrhea",89,17
+ONC-00270,70,F,Lymphoma,Stage I,HER2+,0,Hormone therapy,Targeted therapy with trastuzumab,181683,76.8,"rash, fatigue, neuropathy, diarrhea",84,22
+ONC-00271,69,F,Breast Cancer,Stage I,"HER2+, EGFR mutation, Triple Negative",3,Immunotherapy,Hormone therapy with tamoxifen,55164,67,"fatigue, nausea, neutropenia, diarrhea, rash",55,13
+ONC-00272,69,F,Pancreatic Cancer,Stage II,"BRAF V600E, EGFR mutation, EGFR mutation",1,Radiation therapy,Targeted therapy with trastuzumab,108728,48.7,"neuropathy, nausea, neuropathy, fatigue, nausea",63,7
+ONC-00273,49,F,Leukemia,Stage III,"PD-L1 positive, MSI-high, HER2+",2,Radiation therapy,Clinical trial enrollment,186916,42.7,"neutropenia, rash, neutropenia, neuropathy",93,10
+ONC-00274,57,M,Breast Cancer,Stage II,"BRAF V600E, PD-L1 positive",3,Hormone therapy,CAR-T cell therapy,159511,94.5,"diarrhea, diarrhea",41,7
+ONC-00275,55,M,Breast Cancer,Stage III,"BRAF V600E, PD-L1 positive",3,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,84352,11.9,"fatigue, neuropathy, neuropathy",87,14
+ONC-00276,57,M,Pancreatic Cancer,Stage III,"BRAF V600E, HER2+, Triple Negative",3,Hormone therapy,Hormone therapy with tamoxifen,102807,47,"neuropathy, diarrhea, fatigue, nausea",86,7
+ONC-00277,65,M,Lymphoma,Stage II,"BRAF V600E, EGFR mutation, Triple Negative",2,Surgery only,Hormone therapy with tamoxifen,147910,34.4,"fatigue, fatigue",57,24
+ONC-00278,50,F,Lung Cancer,Stage III,"EGFR mutation, EGFR mutation",0,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,82748,12.9,"fatigue, diarrhea, fatigue, nausea, neuropathy",45,11
+ONC-00279,53,F,Prostate Cancer,Stage IV,"HER2+, ALK positive, Triple Negative",0,Targeted therapy,Targeted therapy with trastuzumab,172179,83.5,"nausea, fatigue, fatigue",68,7
+ONC-00280,39,F,Breast Cancer,Stage II,PD-L1 positive,1,None,Immunotherapy with pembrolizumab,153662,85.2,"neuropathy, rash, neuropathy",90,14
+ONC-00281,52,M,Lung Cancer,Stage IV,MSI-high,0,Immunotherapy,Clinical trial enrollment,95959,10.7,"neuropathy, neuropathy, neuropathy, nausea",68,13
+ONC-00282,35,M,Breast Cancer,Stage III,"Triple Negative, EGFR mutation, EGFR mutation",3,Surgery only,Chemotherapy with carboplatin/paclitaxel,141852,61,"diarrhea, neutropenia",92,18
+ONC-00283,78,M,Lymphoma,Stage II,"MSI-high, ALK positive, EGFR mutation",3,Chemotherapy,Radiation therapy (60 Gy),74630,20.5,"fatigue, neuropathy, diarrhea, diarrhea, neuropathy",57,16
+ONC-00284,46,F,Leukemia,Stage I,"PD-L1 positive, ER+/PR+, ALK positive",1,Radiation therapy,Surgical resection with adjuvant therapy,67214,18.3,"neutropenia, rash",69,15
+ONC-00285,43,M,Lung Cancer,Stage II,MSI-high,0,None,CAR-T cell therapy,159465,31.8,"nausea, nausea, nausea, neutropenia",50,15
+ONC-00286,66,F,Leukemia,Stage II,"BRAF V600E, ALK positive, EGFR mutation",2,Surgery only,Immunotherapy with pembrolizumab,136426,25.3,"neutropenia, nausea",73,13
+ONC-00287,42,M,Pancreatic Cancer,Stage I,"Triple Negative, PD-L1 positive",0,None,CAR-T cell therapy,99902,30.4,"nausea, neutropenia",58,19
+ONC-00288,53,M,Colorectal Cancer,Stage II,ER+/PR+,3,Chemotherapy,Targeted therapy with trastuzumab,154724,24.7,"diarrhea, rash, fatigue, diarrhea",76,10
+ONC-00289,64,M,Colorectal Cancer,Stage I,HER2+,2,None,Clinical trial enrollment,52121,74.2,"fatigue, neuropathy, fatigue, diarrhea, neutropenia",51,19
+ONC-00290,67,M,Leukemia,Stage I,ALK positive,2,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,65350,17,"nausea, neuropathy, fatigue, fatigue",52,17
+ONC-00291,80,F,Lung Cancer,Stage III,"HER2+, Triple Negative",0,Chemotherapy,Radiation therapy (60 Gy),132146,24.4,"neutropenia, fatigue, neutropenia, diarrhea",51,21
+ONC-00292,66,F,Leukemia,Stage III,"PD-L1 positive, ALK positive, PD-L1 positive",2,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,60843,84.2,"nausea, rash",48,23
+ONC-00293,85,M,Colorectal Cancer,Stage IV,Triple Negative,3,Hormone therapy,CAR-T cell therapy,128511,59.1,"nausea, diarrhea, rash, nausea, rash",83,7
+ONC-00294,39,F,Prostate Cancer,Stage II,"Triple Negative, ER+/PR+, BRAF V600E",3,Chemotherapy,Hormone therapy with tamoxifen,193565,18.2,"neutropenia, diarrhea, neuropathy, nausea, diarrhea",83,10
+ONC-00295,25,F,Lung Cancer,Stage IV,"HER2+, EGFR mutation, Triple Negative",2,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,182580,87.4,"nausea, neutropenia, nausea",88,12
+ONC-00296,52,F,Prostate Cancer,Stage III,HER2+,1,Surgery only,Hormone therapy with tamoxifen,74849,78.3,"diarrhea, neuropathy, neuropathy, neutropenia, nausea",78,19
+ONC-00297,82,F,Leukemia,Stage II,"EGFR mutation, EGFR mutation, ALK positive",0,Immunotherapy,Radiation therapy (60 Gy),199011,58.5,"nausea, fatigue",93,24
+ONC-00298,66,M,Prostate Cancer,Stage III,MSI-high,3,Hormone therapy,Surgical resection with adjuvant therapy,141454,10.1,"neuropathy, neutropenia, fatigue, fatigue",79,10
+ONC-00299,58,F,Lymphoma,Stage II,EGFR mutation,3,Immunotherapy,CAR-T cell therapy,109049,49.3,"nausea, diarrhea, neutropenia, fatigue",57,19
+ONC-00300,47,F,Breast Cancer,Stage II,"Triple Negative, ER+/PR+, Triple Negative",1,Hormone therapy,Surgical resection with adjuvant therapy,189523,62.1,"rash, nausea, rash, neutropenia",73,20
+ONC-00301,46,F,Leukemia,Stage I,EGFR mutation,2,Surgery only,Chemotherapy with carboplatin/paclitaxel,89558,22.6,"diarrhea, neutropenia",87,10
+ONC-00302,58,F,Leukemia,Stage I,BRAF V600E,1,None,Targeted therapy with trastuzumab,94374,51.2,"rash, diarrhea, fatigue, fatigue",85,22
+ONC-00303,74,M,Colorectal Cancer,Stage I,"HER2+, ALK positive, EGFR mutation",2,None,Radiation therapy (60 Gy),170233,94.1,"neuropathy, rash",55,8
+ONC-00304,34,M,Breast Cancer,Stage III,"MSI-high, HER2+, ALK positive",0,None,Clinical trial enrollment,70286,73.9,"nausea, rash, nausea, fatigue",86,19
+ONC-00305,58,F,Leukemia,Stage I,"MSI-high, EGFR mutation, PD-L1 positive",2,Hormone therapy,Surgical resection with adjuvant therapy,72731,53.9,"nausea, neutropenia, nausea",90,10
+ONC-00306,41,M,Breast Cancer,Stage III,Triple Negative,1,Radiation therapy,Hormone therapy with tamoxifen,191133,62.4,"neutropenia, neuropathy, diarrhea, rash, nausea",46,19
+ONC-00307,40,F,Prostate Cancer,Stage I,BRAF V600E,2,None,Clinical trial enrollment,131688,34.6,"rash, diarrhea",65,9
+ONC-00308,64,F,Lung Cancer,Stage I,"MSI-high, MSI-high",0,Chemotherapy,Clinical trial enrollment,147241,12.2,"neutropenia, nausea, diarrhea, rash, nausea",44,16
+ONC-00309,73,M,Pancreatic Cancer,Stage I,PD-L1 positive,1,Radiation therapy,Targeted therapy with trastuzumab,89119,35.2,"rash, diarrhea, rash, neutropenia",42,18
+ONC-00310,50,F,Lymphoma,Stage II,"PD-L1 positive, ALK positive",0,Radiation therapy,Immunotherapy with pembrolizumab,142040,46,"rash, nausea, neutropenia",60,14
+ONC-00311,55,M,Pancreatic Cancer,Stage IV,"BRAF V600E, PD-L1 positive",3,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,119869,89.2,"nausea, diarrhea",62,18
+ONC-00312,76,M,Colorectal Cancer,Stage III,MSI-high,1,Surgery only,Hormone therapy with tamoxifen,187007,28.5,"diarrhea, rash",94,20
+ONC-00313,71,F,Prostate Cancer,Stage III,"PD-L1 positive, BRAF V600E",0,Radiation therapy,Immunotherapy with pembrolizumab,147992,63.3,"neutropenia, neutropenia, neuropathy, diarrhea, neutropenia",66,17
+ONC-00314,80,M,Colorectal Cancer,Stage III,"PD-L1 positive, Triple Negative",2,Radiation therapy,Radiation therapy (60 Gy),84370,49.8,"nausea, neutropenia, rash, rash, neutropenia",81,24
+ONC-00315,35,F,Lymphoma,Stage I,ALK positive,2,Targeted therapy,Surgical resection with adjuvant therapy,78082,42.5,"fatigue, diarrhea, neutropenia",60,23
+ONC-00316,53,F,Lymphoma,Stage II,"MSI-high, Triple Negative",3,Targeted therapy,Radiation therapy (60 Gy),68114,54.4,"fatigue, nausea, neutropenia, fatigue, neuropathy",51,23
+ONC-00317,67,F,Breast Cancer,Stage I,"MSI-high, EGFR mutation, ALK positive",3,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,171250,14.4,"fatigue, rash, nausea, neutropenia",67,6
+ONC-00318,39,M,Lymphoma,Stage III,"ALK positive, EGFR mutation, PD-L1 positive",1,Chemotherapy,Clinical trial enrollment,103383,28.7,"rash, neutropenia, rash",67,23
+ONC-00319,56,F,Pancreatic Cancer,Stage II,"MSI-high, HER2+, HER2+",3,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,149867,32.4,"neuropathy, neuropathy, rash, fatigue, neutropenia",56,9
+ONC-00320,63,F,Leukemia,Stage IV,"ER+/PR+, BRAF V600E",1,Hormone therapy,Hormone therapy with tamoxifen,52862,60.4,"neuropathy, neutropenia, neuropathy, neutropenia, fatigue",53,23
+ONC-00321,33,F,Breast Cancer,Stage I,EGFR mutation,1,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,64304,42.5,"diarrhea, diarrhea",47,7
+ONC-00322,60,M,Melanoma,Stage I,"Triple Negative, BRAF V600E, PD-L1 positive",2,None,Surgical resection with adjuvant therapy,64620,51.9,"neuropathy, fatigue, nausea",61,8
+ONC-00323,44,F,Melanoma,Stage IV,"ER+/PR+, BRAF V600E",2,Surgery only,Radiation therapy (60 Gy),178235,40.5,"nausea, nausea, diarrhea",53,23
+ONC-00324,58,F,Breast Cancer,Stage III,"ALK positive, ALK positive, MSI-high",0,Targeted therapy,Radiation therapy (60 Gy),145393,55.4,"nausea, neuropathy, neutropenia, neuropathy",88,10
+ONC-00325,45,M,Pancreatic Cancer,Stage III,Triple Negative,0,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,104802,18.1,"diarrhea, neutropenia, neutropenia, neutropenia, neuropathy",42,21
+ONC-00326,39,M,Colorectal Cancer,Stage II,"PD-L1 positive, MSI-high, EGFR mutation",1,Chemotherapy,Clinical trial enrollment,117408,24.3,"fatigue, neuropathy, rash, diarrhea, diarrhea",68,21
+ONC-00327,71,M,Lymphoma,Stage IV,"HER2+, ALK positive, EGFR mutation",3,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,124170,54.9,"neuropathy, rash",86,20
+ONC-00328,53,F,Prostate Cancer,Stage IV,"EGFR mutation, PD-L1 positive, MSI-high",3,Hormone therapy,CAR-T cell therapy,164420,52.9,"fatigue, diarrhea, rash",46,7
+ONC-00329,50,F,Melanoma,Stage IV,ER+/PR+,3,Surgery only,Immunotherapy with pembrolizumab,121772,75.6,"nausea, fatigue, nausea, diarrhea, fatigue",61,22
+ONC-00330,68,M,Colorectal Cancer,Stage IV,BRAF V600E,1,Radiation therapy,Hormone therapy with tamoxifen,107683,31.3,"neutropenia, fatigue",45,19
+ONC-00331,35,M,Lymphoma,Stage I,MSI-high,0,Immunotherapy,Immunotherapy with pembrolizumab,144988,52.2,"diarrhea, diarrhea, nausea",87,11
+ONC-00332,59,M,Lung Cancer,Stage II,"ALK positive, ER+/PR+",2,Radiation therapy,Targeted therapy with trastuzumab,88811,46.1,"fatigue, neuropathy, fatigue",92,22
+ONC-00333,67,F,Prostate Cancer,Stage I,Triple Negative,3,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,177358,31.1,"rash, neutropenia, diarrhea",54,16
+ONC-00334,67,M,Leukemia,Stage I,"Triple Negative, BRAF V600E",0,Targeted therapy,Clinical trial enrollment,106400,42.4,"nausea, fatigue, nausea, rash",94,20
+ONC-00335,54,M,Colorectal Cancer,Stage III,EGFR mutation,2,Radiation therapy,CAR-T cell therapy,182292,16.8,"diarrhea, diarrhea, neuropathy, neutropenia",42,21
+ONC-00336,60,F,Pancreatic Cancer,Stage IV,"Triple Negative, HER2+",3,Surgery only,CAR-T cell therapy,53069,19.2,"diarrhea, neutropenia",82,18
+ONC-00337,58,M,Prostate Cancer,Stage IV,"HER2+, ALK positive",1,Hormone therapy,Immunotherapy with pembrolizumab,73166,72.8,"nausea, diarrhea, diarrhea, fatigue, diarrhea",51,8
+ONC-00338,63,M,Lymphoma,Stage I,"ER+/PR+, PD-L1 positive",3,Immunotherapy,Targeted therapy with trastuzumab,141443,28.1,"neuropathy, neutropenia, neutropenia",71,23
+ONC-00339,33,F,Colorectal Cancer,Stage I,"EGFR mutation, PD-L1 positive, EGFR mutation",0,Surgery only,CAR-T cell therapy,198226,87.6,"neuropathy, rash",44,17
+ONC-00340,39,F,Leukemia,Stage I,"PD-L1 positive, BRAF V600E",1,Chemotherapy,Immunotherapy with pembrolizumab,60396,18.9,"rash, diarrhea, diarrhea, diarrhea, neutropenia",51,15
+ONC-00341,62,M,Colorectal Cancer,Stage I,EGFR mutation,3,None,Targeted therapy with trastuzumab,133758,24.8,"neutropenia, nausea, neuropathy, neutropenia, nausea",79,23
+ONC-00342,57,F,Lung Cancer,Stage III,"PD-L1 positive, HER2+",3,Chemotherapy,Clinical trial enrollment,138472,20.8,"diarrhea, neuropathy",61,17
+ONC-00343,63,F,Lymphoma,Stage III,EGFR mutation,0,None,Radiation therapy (60 Gy),82974,17.5,"neuropathy, diarrhea, neutropenia, neuropathy, nausea",88,15
+ONC-00344,63,F,Breast Cancer,Stage II,"MSI-high, BRAF V600E",0,Immunotherapy,Surgical resection with adjuvant therapy,157210,81.6,"rash, fatigue, neuropathy, diarrhea",63,13
+ONC-00345,59,F,Prostate Cancer,Stage IV,"BRAF V600E, BRAF V600E",1,Surgery only,Surgical resection with adjuvant therapy,127772,60.2,"neutropenia, fatigue, neuropathy, diarrhea",70,8
+ONC-00346,71,F,Prostate Cancer,Stage III,ALK positive,1,Immunotherapy,CAR-T cell therapy,173410,80,"neutropenia, neutropenia",63,16
+ONC-00347,58,F,Lymphoma,Stage I,PD-L1 positive,2,Radiation therapy,Radiation therapy (60 Gy),132024,21.1,"fatigue, diarrhea",91,23
+ONC-00348,48,F,Breast Cancer,Stage III,"BRAF V600E, ALK positive",2,Immunotherapy,Immunotherapy with pembrolizumab,142594,88,"neutropenia, diarrhea",93,13
+ONC-00349,66,M,Prostate Cancer,Stage III,ER+/PR+,1,Immunotherapy,Clinical trial enrollment,79165,50,"nausea, fatigue, diarrhea, diarrhea",41,14
+ONC-00350,55,M,Leukemia,Stage I,"Triple Negative, ALK positive, ALK positive",3,Radiation therapy,CAR-T cell therapy,172583,21.2,"diarrhea, diarrhea, rash",78,8
+ONC-00351,44,M,Leukemia,Stage III,"EGFR mutation, MSI-high",0,Chemotherapy,CAR-T cell therapy,75258,15.6,"neutropenia, neuropathy, diarrhea, neuropathy",53,6
+ONC-00352,73,M,Melanoma,Stage I,"HER2+, BRAF V600E",3,Immunotherapy,Clinical trial enrollment,61842,63.5,"nausea, fatigue, neutropenia, rash, diarrhea",56,17
+ONC-00353,38,M,Lung Cancer,Stage II,"Triple Negative, Triple Negative",2,Hormone therapy,Hormone therapy with tamoxifen,146049,42.1,"nausea, neuropathy, nausea",91,20
+ONC-00354,56,F,Prostate Cancer,Stage II,BRAF V600E,2,Chemotherapy,Immunotherapy with pembrolizumab,60608,76.8,"neuropathy, diarrhea, neuropathy, nausea, fatigue",43,15
+ONC-00355,40,M,Prostate Cancer,Stage IV,ALK positive,1,Radiation therapy,Targeted therapy with trastuzumab,65706,33,"neuropathy, neutropenia, rash, neuropathy",95,21
+ONC-00356,74,M,Colorectal Cancer,Stage III,BRAF V600E,3,Radiation therapy,CAR-T cell therapy,95411,47.3,"neuropathy, nausea, neuropathy, neuropathy, neuropathy",90,14
+ONC-00357,25,F,Breast Cancer,Stage I,"ALK positive, ER+/PR+",3,Chemotherapy,Immunotherapy with pembrolizumab,146671,69.3,"rash, diarrhea, neutropenia, nausea",63,20
+ONC-00358,72,F,Lymphoma,Stage III,"PD-L1 positive, EGFR mutation",3,Radiation therapy,Clinical trial enrollment,82906,48.1,"nausea, neuropathy",93,6
+ONC-00359,69,M,Breast Cancer,Stage II,HER2+,3,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,114459,12.5,"neutropenia, fatigue, nausea, diarrhea",84,23
+ONC-00360,39,F,Melanoma,Stage I,"EGFR mutation, HER2+, BRAF V600E",0,Chemotherapy,Hormone therapy with tamoxifen,173518,34.9,"neutropenia, rash, neutropenia, nausea, fatigue",95,10
+ONC-00361,57,M,Prostate Cancer,Stage I,"ALK positive, EGFR mutation",3,Chemotherapy,CAR-T cell therapy,152241,47.8,"rash, rash, rash",85,15
+ONC-00362,56,F,Lung Cancer,Stage III,EGFR mutation,0,Chemotherapy,Immunotherapy with pembrolizumab,144250,21.6,"diarrhea, diarrhea, fatigue",86,14
+ONC-00363,55,M,Prostate Cancer,Stage III,"ALK positive, BRAF V600E",0,Radiation therapy,Radiation therapy (60 Gy),85192,93.4,"neuropathy, rash, neutropenia",51,15
+ONC-00364,53,F,Pancreatic Cancer,Stage III,"EGFR mutation, EGFR mutation",2,Immunotherapy,Hormone therapy with tamoxifen,66990,84.8,"nausea, neutropenia, rash, neutropenia, neutropenia",55,13
+ONC-00365,68,M,Melanoma,Stage III,"ALK positive, MSI-high, PD-L1 positive",3,None,Immunotherapy with pembrolizumab,122919,29.8,"neutropenia, nausea, fatigue, nausea",41,22
+ONC-00366,77,F,Colorectal Cancer,Stage III,"EGFR mutation, EGFR mutation",0,Targeted therapy,CAR-T cell therapy,111101,17.2,"neuropathy, neuropathy, neuropathy",68,13
+ONC-00367,29,F,Prostate Cancer,Stage IV,"ER+/PR+, MSI-high",2,Radiation therapy,Targeted therapy with trastuzumab,140737,61,"neuropathy, neuropathy, fatigue, diarrhea",81,9
+ONC-00368,43,F,Breast Cancer,Stage IV,"ER+/PR+, EGFR mutation, ALK positive",3,None,Surgical resection with adjuvant therapy,78873,14.2,"neutropenia, nausea, neuropathy, nausea",94,19
+ONC-00369,50,F,Melanoma,Stage I,ALK positive,2,Chemotherapy,Immunotherapy with pembrolizumab,57936,28.6,"diarrhea, diarrhea, rash, rash, neutropenia",80,16
+ONC-00370,78,M,Breast Cancer,Stage IV,"Triple Negative, Triple Negative",3,Chemotherapy,Targeted therapy with trastuzumab,179167,92.2,"fatigue, neuropathy",58,9
+ONC-00371,64,F,Lymphoma,Stage II,ALK positive,3,Radiation therapy,CAR-T cell therapy,100714,91.5,"nausea, diarrhea, neutropenia, fatigue",41,15
+ONC-00372,49,F,Pancreatic Cancer,Stage III,Triple Negative,2,Hormone therapy,Surgical resection with adjuvant therapy,184210,12,"neutropenia, neuropathy",88,18
+ONC-00373,84,M,Leukemia,Stage I,"BRAF V600E, ER+/PR+",2,Immunotherapy,Immunotherapy with pembrolizumab,146671,85.3,"nausea, neuropathy, diarrhea, diarrhea, diarrhea",57,7
+ONC-00374,59,M,Pancreatic Cancer,Stage I,MSI-high,1,Hormone therapy,Radiation therapy (60 Gy),85973,86.7,"neutropenia, rash",95,17
+ONC-00375,54,M,Pancreatic Cancer,Stage I,ER+/PR+,0,Surgery only,Chemotherapy with carboplatin/paclitaxel,167068,87.3,"fatigue, rash, neuropathy, nausea",95,8
+ONC-00376,37,M,Leukemia,Stage IV,"PD-L1 positive, BRAF V600E",3,Hormone therapy,CAR-T cell therapy,135755,30.9,"neuropathy, neutropenia, neutropenia, nausea, neutropenia",53,15
+ONC-00377,64,M,Pancreatic Cancer,Stage I,"Triple Negative, MSI-high, ER+/PR+",1,Targeted therapy,Immunotherapy with pembrolizumab,124646,32.1,"neuropathy, fatigue, rash, fatigue",62,11
+ONC-00378,60,M,Leukemia,Stage III,"ER+/PR+, PD-L1 positive",2,Radiation therapy,Hormone therapy with tamoxifen,96489,15.7,"fatigue, nausea, rash",58,21
+ONC-00379,54,F,Prostate Cancer,Stage III,"ALK positive, Triple Negative, PD-L1 positive",1,Radiation therapy,CAR-T cell therapy,168971,15.2,"neutropenia, rash, neuropathy, rash, neutropenia",78,18
+ONC-00380,85,F,Lymphoma,Stage III,BRAF V600E,3,None,Hormone therapy with tamoxifen,66967,86.3,"nausea, diarrhea, neutropenia",62,21
+ONC-00381,39,M,Melanoma,Stage II,"ER+/PR+, ALK positive, PD-L1 positive",1,Targeted therapy,Clinical trial enrollment,97950,82.1,"nausea, neutropenia, diarrhea",57,9
+ONC-00382,80,M,Pancreatic Cancer,Stage III,"ALK positive, ER+/PR+",0,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,162433,74.4,"nausea, diarrhea",65,23
+ONC-00383,48,M,Pancreatic Cancer,Stage III,"Triple Negative, Triple Negative",3,None,Radiation therapy (60 Gy),193350,11.8,"diarrhea, neuropathy, rash, nausea, nausea",82,6
+ONC-00384,48,M,Lymphoma,Stage I,ALK positive,2,Chemotherapy,Immunotherapy with pembrolizumab,104512,25,"nausea, neuropathy, nausea, diarrhea",76,23
+ONC-00385,69,M,Colorectal Cancer,Stage IV,"EGFR mutation, PD-L1 positive, ALK positive",2,Hormone therapy,Immunotherapy with pembrolizumab,199920,19.4,"fatigue, diarrhea",63,20
+ONC-00386,70,F,Prostate Cancer,Stage III,"ER+/PR+, ALK positive, MSI-high",2,Immunotherapy,Immunotherapy with pembrolizumab,194057,91.5,"rash, fatigue, rash, fatigue",64,8
+ONC-00387,50,F,Lung Cancer,Stage II,"ER+/PR+, HER2+, PD-L1 positive",2,Hormone therapy,Immunotherapy with pembrolizumab,72240,54.7,"nausea, rash, neutropenia, fatigue",78,13
+ONC-00388,35,F,Pancreatic Cancer,Stage IV,"MSI-high, HER2+, Triple Negative",3,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,93908,39.3,"neuropathy, rash",70,17
+ONC-00389,78,F,Lung Cancer,Stage IV,"MSI-high, ER+/PR+, HER2+",1,Surgery only,Immunotherapy with pembrolizumab,102098,59.8,"rash, neuropathy, neuropathy, nausea",69,6
+ONC-00390,66,F,Lymphoma,Stage III,"BRAF V600E, MSI-high, ER+/PR+",1,Radiation therapy,CAR-T cell therapy,60055,60.2,"neuropathy, rash",43,23
+ONC-00391,85,M,Melanoma,Stage II,"HER2+, HER2+, ER+/PR+",0,None,Targeted therapy with trastuzumab,176375,11.8,"diarrhea, neutropenia, nausea, neutropenia",87,21
+ONC-00392,54,M,Breast Cancer,Stage IV,MSI-high,1,None,CAR-T cell therapy,135076,58.4,"neutropenia, neutropenia, neutropenia, fatigue, fatigue",47,11
+ONC-00393,50,M,Breast Cancer,Stage II,"HER2+, ALK positive, BRAF V600E",1,Chemotherapy,Targeted therapy with trastuzumab,70590,54,"diarrhea, diarrhea, neuropathy",44,9
+ONC-00394,56,M,Melanoma,Stage II,BRAF V600E,0,Immunotherapy,CAR-T cell therapy,107536,79.7,"neuropathy, nausea, neutropenia, fatigue",72,20
+ONC-00395,39,M,Prostate Cancer,Stage III,"ER+/PR+, ALK positive",3,Radiation therapy,Hormone therapy with tamoxifen,92074,84.4,"nausea, nausea, diarrhea",54,20
+ONC-00396,68,F,Leukemia,Stage II,"MSI-high, Triple Negative",3,Chemotherapy,CAR-T cell therapy,150827,36.4,"neutropenia, neutropenia",48,24
+ONC-00397,40,M,Prostate Cancer,Stage IV,MSI-high,3,Immunotherapy,Radiation therapy (60 Gy),96167,52.6,"neutropenia, neuropathy, rash, nausea, diarrhea",69,16
+ONC-00398,75,F,Leukemia,Stage III,ER+/PR+,2,Targeted therapy,CAR-T cell therapy,167924,26.3,"fatigue, neuropathy, nausea, neutropenia",73,23
+ONC-00399,50,M,Prostate Cancer,Stage IV,"EGFR mutation, PD-L1 positive, ER+/PR+",0,Targeted therapy,Surgical resection with adjuvant therapy,94116,48.7,"nausea, rash, neutropenia, fatigue",72,14
+ONC-00400,46,M,Colorectal Cancer,Stage I,"ALK positive, ALK positive, MSI-high",3,None,Radiation therapy (60 Gy),106645,94.5,"nausea, fatigue, neutropenia, fatigue",62,20
+ONC-00401,39,F,Colorectal Cancer,Stage II,ALK positive,3,Surgery only,Chemotherapy with carboplatin/paclitaxel,97569,12.2,"neutropenia, nausea",61,9
+ONC-00402,55,F,Pancreatic Cancer,Stage I,"PD-L1 positive, MSI-high",0,Hormone therapy,Radiation therapy (60 Gy),73215,74.7,"nausea, neutropenia",93,23
+ONC-00403,30,M,Leukemia,Stage IV,"ALK positive, EGFR mutation",1,Targeted therapy,Surgical resection with adjuvant therapy,189819,80.2,"rash, fatigue",83,12
+ONC-00404,37,M,Colorectal Cancer,Stage III,EGFR mutation,2,Surgery only,CAR-T cell therapy,171773,92.8,"nausea, fatigue, diarrhea, fatigue",94,10
+ONC-00405,42,F,Pancreatic Cancer,Stage I,Triple Negative,0,None,Chemotherapy with carboplatin/paclitaxel,108698,51,"nausea, diarrhea, diarrhea, rash",65,19
+ONC-00406,67,M,Leukemia,Stage IV,ER+/PR+,1,Hormone therapy,Radiation therapy (60 Gy),96271,55.6,"nausea, neutropenia, neuropathy, fatigue",87,19
+ONC-00407,66,F,Prostate Cancer,Stage III,"PD-L1 positive, ER+/PR+",2,Surgery only,Targeted therapy with trastuzumab,196762,34.5,"neutropenia, neuropathy",95,7
+ONC-00408,65,M,Lung Cancer,Stage II,"HER2+, MSI-high, PD-L1 positive",1,None,Radiation therapy (60 Gy),198932,62.9,"neutropenia, rash, neutropenia",75,18
+ONC-00409,50,M,Leukemia,Stage III,"MSI-high, Triple Negative",3,Surgery only,Chemotherapy with carboplatin/paclitaxel,138327,75.1,"neuropathy, rash, neutropenia",91,7
+ONC-00410,60,F,Pancreatic Cancer,Stage I,PD-L1 positive,2,Radiation therapy,Immunotherapy with pembrolizumab,81731,88.3,"neutropenia, diarrhea, neuropathy",95,18
+ONC-00411,38,M,Melanoma,Stage III,"PD-L1 positive, Triple Negative, BRAF V600E",1,Chemotherapy,Radiation therapy (60 Gy),92855,72.7,"diarrhea, rash, rash, fatigue",91,13
+ONC-00412,46,M,Leukemia,Stage III,"ALK positive, ER+/PR+",0,Targeted therapy,Hormone therapy with tamoxifen,109535,60.4,"diarrhea, fatigue, nausea, neutropenia, rash",53,23
+ONC-00413,37,M,Lung Cancer,Stage IV,ALK positive,0,Targeted therapy,Targeted therapy with trastuzumab,120161,34.7,"rash, diarrhea, nausea",61,8
+ONC-00414,66,F,Lymphoma,Stage III,"HER2+, ALK positive",3,Targeted therapy,Clinical trial enrollment,161977,43.2,"diarrhea, neuropathy",47,12
+ONC-00415,65,F,Leukemia,Stage IV,ER+/PR+,1,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,190051,87.7,"neutropenia, nausea, diarrhea, fatigue, rash",53,21
+ONC-00416,42,F,Melanoma,Stage II,ER+/PR+,3,None,CAR-T cell therapy,144975,94.8,"neuropathy, neutropenia, diarrhea, neuropathy, rash",84,14
+ONC-00417,65,M,Melanoma,Stage III,"MSI-high, HER2+",2,Radiation therapy,Surgical resection with adjuvant therapy,154880,94.9,"fatigue, nausea, fatigue",95,9
+ONC-00418,47,M,Leukemia,Stage III,EGFR mutation,2,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,93439,13.6,"neutropenia, nausea",93,23
+ONC-00419,63,M,Prostate Cancer,Stage I,"EGFR mutation, Triple Negative",1,Chemotherapy,Targeted therapy with trastuzumab,94188,45.7,"neutropenia, nausea",40,16
+ONC-00420,49,M,Colorectal Cancer,Stage I,"BRAF V600E, ER+/PR+, EGFR mutation",2,Hormone therapy,Radiation therapy (60 Gy),178520,75.3,"neutropenia, diarrhea, neutropenia, rash",61,19
+ONC-00421,47,M,Breast Cancer,Stage II,"ALK positive, ALK positive",1,Targeted therapy,Chemotherapy with carboplatin/paclitaxel,147193,81.8,"fatigue, neuropathy, neutropenia",63,20
+ONC-00422,72,M,Lung Cancer,Stage II,"ALK positive, EGFR mutation",1,Surgery only,Immunotherapy with pembrolizumab,62458,45.8,"nausea, nausea",79,6
+ONC-00423,56,F,Colorectal Cancer,Stage II,"PD-L1 positive, EGFR mutation",2,None,Clinical trial enrollment,87332,70.1,"diarrhea, neuropathy, neuropathy, rash",54,13
+ONC-00424,77,F,Lymphoma,Stage III,"ER+/PR+, ALK positive, EGFR mutation",2,Hormone therapy,Surgical resection with adjuvant therapy,101396,46.5,"fatigue, fatigue, neuropathy",48,18
+ONC-00425,54,M,Leukemia,Stage I,"BRAF V600E, PD-L1 positive, EGFR mutation",1,Immunotherapy,Hormone therapy with tamoxifen,132676,37.3,"rash, nausea",90,15
+ONC-00426,52,F,Lung Cancer,Stage III,EGFR mutation,2,Targeted therapy,CAR-T cell therapy,184176,32.3,"rash, neuropathy, neuropathy, fatigue",66,10
+ONC-00427,42,M,Lung Cancer,Stage I,"Triple Negative, EGFR mutation",3,None,Radiation therapy (60 Gy),191334,51.5,"nausea, fatigue, neuropathy, diarrhea",40,22
+ONC-00428,85,M,Prostate Cancer,Stage II,"PD-L1 positive, EGFR mutation",0,Immunotherapy,Clinical trial enrollment,165211,82.4,"diarrhea, rash",64,17
+ONC-00429,25,M,Prostate Cancer,Stage II,ALK positive,3,Radiation therapy,Immunotherapy with pembrolizumab,177481,50.5,"diarrhea, fatigue, nausea, diarrhea",45,7
+ONC-00430,60,M,Colorectal Cancer,Stage IV,"HER2+, HER2+",2,Immunotherapy,Immunotherapy with pembrolizumab,119654,57.2,"neutropenia, fatigue, diarrhea",51,17
+ONC-00431,54,M,Leukemia,Stage IV,"Triple Negative, BRAF V600E, ALK positive",2,None,CAR-T cell therapy,191509,92.5,"nausea, rash, neutropenia, fatigue, neuropathy",56,24
+ONC-00432,85,F,Colorectal Cancer,Stage IV,BRAF V600E,0,Radiation therapy,Radiation therapy (60 Gy),100661,19.6,"neuropathy, diarrhea, neuropathy, neuropathy, nausea",88,19
+ONC-00433,62,F,Pancreatic Cancer,Stage IV,BRAF V600E,3,None,Surgical resection with adjuvant therapy,56327,57.1,"diarrhea, diarrhea, nausea, nausea",41,20
+ONC-00434,43,F,Lymphoma,Stage II,"EGFR mutation, EGFR mutation",0,None,Hormone therapy with tamoxifen,130481,45.7,"fatigue, fatigue, neuropathy, fatigue, diarrhea",50,17
+ONC-00435,55,F,Pancreatic Cancer,Stage I,"EGFR mutation, MSI-high, EGFR mutation",1,Surgery only,Chemotherapy with carboplatin/paclitaxel,120332,68.6,"diarrhea, neuropathy, fatigue",88,19
+ONC-00436,48,M,Breast Cancer,Stage IV,"PD-L1 positive, EGFR mutation",0,Hormone therapy,Chemotherapy with carboplatin/paclitaxel,153325,79.9,"fatigue, fatigue, neuropathy, rash, diarrhea",64,18
+ONC-00437,49,M,Lymphoma,Stage I,"Triple Negative, PD-L1 positive",2,None,Clinical trial enrollment,124439,29.5,"neutropenia, neutropenia, rash",40,16
+ONC-00438,62,M,Melanoma,Stage III,"BRAF V600E, HER2+, Triple Negative",1,Targeted therapy,Clinical trial enrollment,57480,68.1,"fatigue, nausea, fatigue, fatigue, fatigue",95,6
+ONC-00439,51,M,Leukemia,Stage I,"ALK positive, HER2+, ALK positive",3,Immunotherapy,CAR-T cell therapy,80880,30.4,"nausea, nausea, fatigue, nausea",89,17
+ONC-00440,55,F,Lung Cancer,Stage III,"ALK positive, ALK positive, BRAF V600E",2,None,Radiation therapy (60 Gy),141134,65.8,"rash, neuropathy, fatigue, fatigue, rash",82,13
+ONC-00441,78,F,Lymphoma,Stage I,"BRAF V600E, BRAF V600E, Triple Negative",3,Chemotherapy,Immunotherapy with pembrolizumab,62355,30.4,"diarrhea, nausea, diarrhea",69,21
+ONC-00442,35,F,Pancreatic Cancer,Stage II,"ALK positive, EGFR mutation",2,Surgery only,Surgical resection with adjuvant therapy,124866,94.5,"neuropathy, rash, diarrhea, diarrhea, neuropathy",82,15
+ONC-00443,50,M,Pancreatic Cancer,Stage IV,ALK positive,0,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,135251,30.7,"rash, nausea",47,15
+ONC-00444,47,F,Prostate Cancer,Stage I,"BRAF V600E, PD-L1 positive, ER+/PR+",3,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,100547,19.1,"rash, nausea",48,8
+ONC-00445,66,F,Lymphoma,Stage III,"ALK positive, ALK positive",2,None,Hormone therapy with tamoxifen,102982,71.6,"neutropenia, neuropathy, rash",54,24
+ONC-00446,58,M,Breast Cancer,Stage II,"MSI-high, ER+/PR+, BRAF V600E",1,Surgery only,Radiation therapy (60 Gy),77100,16,"nausea, nausea",73,16
+ONC-00447,70,M,Breast Cancer,Stage III,"HER2+, HER2+, ALK positive",1,Chemotherapy,Immunotherapy with pembrolizumab,132363,87.5,"fatigue, fatigue",76,8
+ONC-00448,60,M,Lung Cancer,Stage II,"PD-L1 positive, PD-L1 positive, PD-L1 positive",2,Chemotherapy,Clinical trial enrollment,55303,65,"diarrhea, neuropathy",46,15
+ONC-00449,63,F,Colorectal Cancer,Stage IV,"ER+/PR+, ALK positive",3,Radiation therapy,Hormone therapy with tamoxifen,156358,78.7,"fatigue, neutropenia, neuropathy",47,19
+ONC-00450,61,M,Breast Cancer,Stage IV,ER+/PR+,1,Surgery only,Targeted therapy with trastuzumab,197672,65.5,"diarrhea, neutropenia, nausea, neuropathy, nausea",66,8
+ONC-00451,42,F,Leukemia,Stage III,Triple Negative,1,Targeted therapy,Hormone therapy with tamoxifen,175662,84.1,"rash, diarrhea, neutropenia, diarrhea",54,24
+ONC-00452,70,M,Prostate Cancer,Stage III,"BRAF V600E, MSI-high, MSI-high",3,Hormone therapy,Immunotherapy with pembrolizumab,129253,90.9,"rash, neutropenia, rash, nausea, fatigue",66,12
+ONC-00453,70,M,Lung Cancer,Stage II,"ER+/PR+, BRAF V600E",1,Surgery only,Immunotherapy with pembrolizumab,135942,53.9,"rash, rash, neuropathy, nausea, nausea",85,21
+ONC-00454,58,M,Breast Cancer,Stage II,EGFR mutation,3,None,Surgical resection with adjuvant therapy,91996,41,"diarrhea, nausea, neuropathy",69,23
+ONC-00455,72,F,Colorectal Cancer,Stage I,PD-L1 positive,1,Surgery only,CAR-T cell therapy,67886,83,"nausea, nausea",85,22
+ONC-00456,48,F,Lymphoma,Stage III,"PD-L1 positive, ALK positive",3,Chemotherapy,Hormone therapy with tamoxifen,74235,81.4,"rash, neutropenia, neuropathy",75,15
+ONC-00457,53,M,Lymphoma,Stage II,EGFR mutation,2,Chemotherapy,Immunotherapy with pembrolizumab,62112,72.8,"nausea, neuropathy",87,18
+ONC-00458,73,F,Colorectal Cancer,Stage II,"MSI-high, HER2+, PD-L1 positive",2,Hormone therapy,Immunotherapy with pembrolizumab,158590,16.8,"neuropathy, neutropenia, diarrhea, neuropathy, nausea",84,11
+ONC-00459,60,F,Melanoma,Stage III,HER2+,0,Targeted therapy,Surgical resection with adjuvant therapy,66586,64.4,"rash, diarrhea, rash, neuropathy",79,16
+ONC-00460,39,M,Lung Cancer,Stage I,"MSI-high, Triple Negative",1,Surgery only,Targeted therapy with trastuzumab,169683,28.3,"diarrhea, neuropathy, nausea, neutropenia, nausea",79,20
+ONC-00461,48,F,Breast Cancer,Stage I,"ALK positive, EGFR mutation",2,Hormone therapy,CAR-T cell therapy,78791,19.5,"fatigue, neuropathy",77,23
+ONC-00462,51,F,Colorectal Cancer,Stage II,"BRAF V600E, PD-L1 positive, Triple Negative",3,None,Hormone therapy with tamoxifen,161391,24.2,"rash, neuropathy, neuropathy, neutropenia",62,11
+ONC-00463,66,M,Breast Cancer,Stage III,MSI-high,2,Surgery only,CAR-T cell therapy,119710,62.1,"rash, fatigue",41,6
+ONC-00464,52,M,Pancreatic Cancer,Stage II,Triple Negative,2,Radiation therapy,Immunotherapy with pembrolizumab,143563,76.8,"fatigue, nausea, diarrhea",55,22
+ONC-00465,73,M,Lymphoma,Stage II,"HER2+, ER+/PR+",2,Surgery only,Hormone therapy with tamoxifen,65285,44,"neuropathy, fatigue, nausea",47,11
+ONC-00466,70,F,Pancreatic Cancer,Stage IV,"PD-L1 positive, BRAF V600E, EGFR mutation",2,None,Radiation therapy (60 Gy),64602,43.3,"neuropathy, neutropenia, neuropathy",63,22
+ONC-00467,31,M,Pancreatic Cancer,Stage II,"ER+/PR+, PD-L1 positive",1,Targeted therapy,Surgical resection with adjuvant therapy,84669,25.7,"rash, diarrhea, diarrhea, fatigue",84,21
+ONC-00468,51,M,Melanoma,Stage III,ER+/PR+,1,Hormone therapy,Hormone therapy with tamoxifen,118498,77.4,"rash, fatigue, diarrhea, neuropathy, fatigue",92,16
+ONC-00469,52,F,Lymphoma,Stage II,"PD-L1 positive, ALK positive",1,Targeted therapy,Targeted therapy with trastuzumab,196398,52.8,"rash, nausea, rash, nausea, neuropathy",47,13
+ONC-00470,60,M,Breast Cancer,Stage III,"Triple Negative, ER+/PR+, EGFR mutation",2,None,Radiation therapy (60 Gy),105274,48.3,"neuropathy, neutropenia, nausea",57,18
+ONC-00471,54,M,Breast Cancer,Stage II,"HER2+, HER2+",1,Targeted therapy,Surgical resection with adjuvant therapy,100118,25.4,"neutropenia, nausea",94,14
+ONC-00472,80,M,Melanoma,Stage II,"ALK positive, BRAF V600E",3,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,181297,26.3,"neutropenia, fatigue, rash, neutropenia, neuropathy",84,14
+ONC-00473,37,F,Leukemia,Stage III,"EGFR mutation, MSI-high",3,Immunotherapy,Surgical resection with adjuvant therapy,103774,63.6,"rash, neuropathy, neutropenia, rash",50,6
+ONC-00474,68,F,Lymphoma,Stage III,"ALK positive, BRAF V600E, ER+/PR+",0,Radiation therapy,Chemotherapy with carboplatin/paclitaxel,165615,91.7,"rash, diarrhea, fatigue, rash, nausea",48,19
+ONC-00475,48,M,Pancreatic Cancer,Stage IV,"Triple Negative, Triple Negative",1,Immunotherapy,Radiation therapy (60 Gy),98127,90.8,"neuropathy, rash, diarrhea, rash, rash",78,10
+ONC-00476,59,M,Lymphoma,Stage IV,"ER+/PR+, MSI-high, ALK positive",2,Targeted therapy,CAR-T cell therapy,172047,63.7,"nausea, diarrhea, neuropathy, rash",51,12
+ONC-00477,58,M,Lymphoma,Stage IV,"Triple Negative, PD-L1 positive, Triple Negative",1,Immunotherapy,Surgical resection with adjuvant therapy,113186,74.6,"rash, fatigue",50,21
+ONC-00478,55,F,Prostate Cancer,Stage IV,"MSI-high, BRAF V600E, MSI-high",3,None,Hormone therapy with tamoxifen,135759,65.6,"nausea, rash, rash",74,11
+ONC-00479,49,M,Pancreatic Cancer,Stage III,"ALK positive, Triple Negative, ALK positive",2,Immunotherapy,Surgical resection with adjuvant therapy,93798,53.2,"neutropenia, rash, rash",75,15
+ONC-00480,46,F,Colorectal Cancer,Stage I,"EGFR mutation, ALK positive, Triple Negative",3,Hormone therapy,CAR-T cell therapy,110592,24,"rash, fatigue, neutropenia",93,23
+ONC-00481,39,F,Breast Cancer,Stage II,HER2+,0,Chemotherapy,Clinical trial enrollment,87626,62.9,"diarrhea, fatigue",52,12
+ONC-00482,64,F,Pancreatic Cancer,Stage II,"ALK positive, HER2+",3,Hormone therapy,Radiation therapy (60 Gy),147156,80.7,"fatigue, rash, rash, fatigue, neutropenia",87,21
+ONC-00483,69,F,Colorectal Cancer,Stage III,"EGFR mutation, BRAF V600E, BRAF V600E",3,Targeted therapy,CAR-T cell therapy,147844,58.4,"neuropathy, diarrhea",64,14
+ONC-00484,78,F,Leukemia,Stage III,"PD-L1 positive, BRAF V600E",1,Targeted therapy,Targeted therapy with trastuzumab,157280,30.9,"nausea, neutropenia, fatigue, rash",90,14
+ONC-00485,60,F,Breast Cancer,Stage I,"MSI-high, EGFR mutation",3,Surgery only,Targeted therapy with trastuzumab,94591,90.1,"fatigue, neutropenia",91,19
+ONC-00486,53,M,Lymphoma,Stage I,ALK positive,1,None,Radiation therapy (60 Gy),181975,54.2,"neutropenia, rash, fatigue",41,16
+ONC-00487,69,F,Leukemia,Stage IV,"HER2+, ER+/PR+, MSI-high",1,Targeted therapy,CAR-T cell therapy,90433,59.4,"nausea, diarrhea, neutropenia, neuropathy, diarrhea",71,24
+ONC-00488,50,F,Pancreatic Cancer,Stage I,"PD-L1 positive, ER+/PR+",1,Chemotherapy,Immunotherapy with pembrolizumab,156006,21.1,"neutropenia, neutropenia, neuropathy",79,8
+ONC-00489,48,M,Breast Cancer,Stage III,ALK positive,0,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,152628,72.5,"neutropenia, neuropathy",46,10
+ONC-00490,57,F,Breast Cancer,Stage IV,BRAF V600E,0,None,Immunotherapy with pembrolizumab,106920,53.3,"nausea, nausea, diarrhea, nausea",56,9
+ONC-00491,48,F,Colorectal Cancer,Stage II,"PD-L1 positive, BRAF V600E, ALK positive",3,Immunotherapy,Radiation therapy (60 Gy),163080,58.9,"neutropenia, diarrhea, rash",78,13
+ONC-00492,59,F,Colorectal Cancer,Stage II,"BRAF V600E, Triple Negative",3,Radiation therapy,Hormone therapy with tamoxifen,76506,25,"nausea, neutropenia",50,9
+ONC-00493,57,M,Colorectal Cancer,Stage III,"Triple Negative, EGFR mutation",1,Surgery only,Hormone therapy with tamoxifen,174900,10.5,"neutropenia, rash",82,14
+ONC-00494,48,M,Colorectal Cancer,Stage IV,"BRAF V600E, BRAF V600E, BRAF V600E",3,Surgery only,Surgical resection with adjuvant therapy,124685,88.4,"diarrhea, nausea",51,18
+ONC-00495,48,M,Breast Cancer,Stage III,ER+/PR+,2,Targeted therapy,Targeted therapy with trastuzumab,61770,17.6,"diarrhea, nausea, nausea, diarrhea",46,16
+ONC-00496,64,F,Melanoma,Stage IV,"PD-L1 positive, EGFR mutation",0,Targeted therapy,Radiation therapy (60 Gy),70041,57,"diarrhea, diarrhea",56,22
+ONC-00497,62,F,Leukemia,Stage IV,"EGFR mutation, EGFR mutation, PD-L1 positive",1,None,Surgical resection with adjuvant therapy,147695,64.4,"diarrhea, fatigue, nausea, nausea",74,23
+ONC-00498,47,F,Colorectal Cancer,Stage II,"MSI-high, EGFR mutation",1,Chemotherapy,Chemotherapy with carboplatin/paclitaxel,78822,23.9,"neuropathy, nausea",72,18
+ONC-00499,51,M,Breast Cancer,Stage I,HER2+,0,Immunotherapy,Chemotherapy with carboplatin/paclitaxel,180778,85.5,"fatigue, nausea",84,10
+ONC-00500,32,M,Melanoma,Stage II,"HER2+, PD-L1 positive, BRAF V600E",1,Immunotherapy,CAR-T cell therapy,55763,18.6,"fatigue, fatigue, diarrhea, neutropenia",72,24
